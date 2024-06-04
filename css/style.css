@@ -1,0 +1,4874 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/******************* WEBSITE START ***************/
+/******************* WEBSITE START ***************/
+/******************* WEBSITE START ***************/
+/* Navbar Start */
+.navbar a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.nav-input-hide {
+    display: none;
+}
+
+.nav-input {
+    display: flex;
+}
+
+.input-search {
+    width: 575px;
+    height: 36px;
+    padding: 7px 25px;
+    border-radius: 10px;
+    background: #F1F7FF;
+    color: #747474;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+.button-search {
+    width: 51px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.button-search:hover {
+    background-color: #2196F3;
+}
+
+.button-search img {
+    width: 20px;
+    margin-top: -3px;
+}
+
+.button-wrapper .button-wishlist {
+    border: none;
+    background-color: #F8F9FA;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper .button-wishlist:hover {
+    opacity: 0.8;
+}
+
+.button-wrapper img {
+    width: 38px;
+    height: 38px;
+}
+
+.button-wrapper2 .button-login {
+    width: 78px;
+    height: 38px;
+    border-radius: 10px;
+    background: #DDEBFF;
+    color: #007AFF;
+    border: 2px solid #007AFF;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper2 .button-login:hover {
+    background-color: #F1F7FF;
+}
+
+.button-wrapper2 .button-jual {
+    width: 67px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper2 .button-jual:hover {
+    background-color: #0062CC;
+}
+
+/* Navbar End */
+
+
+/* Hero Start */
+.hero-section {
+    position: relative;
+    height: 608px;
+}
+
+.hero-img {
+    position: absolute;
+    margin-left: -1%;
+}
+
+.hero-produk {
+    position: relative;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 600;
+    margin-top: 120px;
+    left: 144px;
+}
+
+.hero-text {
+    position: relative;
+    color: #FFF;
+    margin-top: 28px;
+    font-size: 18px;
+    left: 144px;
+}
+
+.btn-mj {
+    position: relative;
+    margin-top: 32px;
+    width: 193px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #007AFF;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    left: 144px;
+
+    transition: background-color 0.2s ease;
+}
+
+.btn-mj:hover {
+    background: #0062CC;
+}
+
+/* Hero End */
+
+
+/* Kategori Start */
+.kategori4 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #004897;
+    line-height: 120%;
+    margin-right: auto;
+}
+
+.kat4ls-a {
+    text-decoration: none;
+}
+
+.kat4ls-wrapper {
+    color: #004897;
+    font-size: 16px;
+}
+
+.kat4ls-wrapper:hover {
+    color: #2196f3;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.kat4-display {
+    display: flex;
+    justify-content: start;
+}
+
+.kat4-wrapper {
+    text-decoration: none;
+}
+
+.kat4-card img {
+    width: 44.685px;
+    height: 44.685px;
+    transition: background-color 0.2s ease;
+}
+
+.kat4-card img:hover {
+    opacity: 0.8;
+}
+
+a .kat4-card p {
+    font-size: 16px;
+    color: #747576;
+    line-height: 120%;
+}
+
+/* Kategori End */
+
+
+/* Kategori2 Start */
+.kategori2-section {
+    position: relative;
+    height: 296px;
+}
+
+.kategori2-section .kat2-img {
+    z-index: 0;
+}
+
+.kategori2-section .kat2-title {
+    z-index: 2;
+    margin-top: -30%;
+    margin-left: 36px;
+
+    width: 334px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.kategori2-section .kat2-nawar {
+    margin-left: 36px;
+    margin-top: 15px;
+
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.kategori2-section .kat2-beli {
+    z-index: 2;
+    margin-left: 36px;
+    margin-top: 22px;
+
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid var(--Primary-60, #0F62FE);
+    background: var(--Primary-60, #0F62FE);
+    transition: background-color 0.2s ease;
+}
+
+.kategori2-section .kat2-beli:hover {
+    background: #0062CC;
+}
+
+.kat2-beli .btn-beli {
+    border: none;
+    background: none;
+    color: var(--Default-White, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.carousel .carousel-control-prev {
+    margin-left: -9%;
+}
+
+.carousel .carousel-control-prev img {
+    width: 35px;
+    height: 35px;
+}
+
+.carousel .carousel-control-next {
+    margin-right: -9%;
+}
+
+.carousel .carousel-control-next img {
+    width: 35px;
+    height: 35px;
+}
+
+/* Kategori2 End */
+
+
+/* Rekomendasi Card Start */
+.rekomen {
+    font-weight: 600;
+    font-size: 32px;
+    color: #004897;
+    line-height: 120%;
+    margin-right: auto;
+}
+
+.rekom-a {
+    text-decoration: none;
+}
+
+.rekomls-wrapper {
+    color: #004897;
+    font-size: 16px;
+}
+
+.rekomls-wrapper:hover {
+    color: #2196f3;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.card-start {
+    position: relative;
+    width: 264px;
+    height: 325px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-i {
+    position: relative;
+    width: 226px;
+    height: 181px;
+    top: 19px;
+    left: 20px;
+    object-fit: cover;
+}
+
+.card-start .harga {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+div .tahun {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: 23px;
+    margin-top: 12px;
+}
+
+div .judul {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+div .loc {
+    color: #747474;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+.btn-loadmore {
+    border: none;
+    width: 213px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #007AFF;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.btn-loadmore:hover {
+    background: #0062CC;
+}
+
+/* Rekomendasi Card End */
+
+
+/* Footer Start */
+.footer-start {
+    background: #212121;
+    padding: 64px 116px;
+}
+
+.footcol1 a {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.text-cpr {
+    color: #F5F7FA;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.foot-nav {
+    color: #F5F7FA;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-input {
+    width: 275px;
+    padding: 9px 12px;
+    border-radius: var(--Spacing-1, 8px);
+    background: #4D4D4D;
+}
+
+.footer-input input {
+    border: none;
+    width: 220px;
+    margin-right: 5px;
+    background: #4D4D4D;
+
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-input button {
+    border: none;
+    background: #4D4D4D;
+}
+
+/* Footer End */
+
+
+/* DETAIL-PRODUCT */
+
+/* Breadcrumb Start */
+.breadcrumb-tree {
+    display: inline-block;
+}
+
+.breadcrumb-tree li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.breadcrumb-tree li+li {
+    margin-left: 10px;
+}
+
+.breadcrumb-tree li+li:before {
+    content: '/';
+    display: inline-block;
+    color: #848484;
+    margin-right: 10px;
+}
+
+.breadcrumb-tree li a {
+    color: #848484;
+    text-decoration: none;
+}
+
+.breadcrumb-tree li a:hover {
+    color: #007AFF;
+}
+
+.breadcrumb-tree .aktif {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Breadcrumb End */
+
+
+/* Image Start */
+/* Image End */
+
+
+/* Info Produk Start */
+.ip-title {
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.ip-harga {
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.produk-section2 {
+    border-top: 2px solid #C1C1C1;
+    border-bottom: 2px solid #C1C1C1;
+}
+
+.ip-lokasi {
+    position: relative;
+    width: 100%;
+    gap: 27px;
+}
+
+.icon-lokasi {
+    position: relative;
+    width: 32.89px;
+    height: 24.85px;
+}
+
+.ip-alamat {
+    position: relative;
+    font-size: 18px;
+    color: #6a747b;
+    line-height: 140%;
+}
+
+.ip-kalender {
+    position: relative;
+    width: 100%;
+    gap: 27px;
+}
+
+.icon-kalender {
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.ip-tanggal {
+    position: relative;
+    font-size: 18px;
+    color: #6a747b;
+    line-height: 140%;
+}
+
+.ip-wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.ip-wrapper button {
+    border: none;
+}
+
+.btn-nego {
+    height: 45px;
+    padding: 4px 21px;
+    border-radius: 10px;
+    background: #007AFF;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    transition: background-color 0.2s ease;
+}
+
+.btn-nego:hover {
+    background-color: #2196F3;
+}
+
+.btn-wishlist {
+    width: 55px;
+    height: 45px;
+    padding: 4px 21px;
+    border-radius: 10px;
+    background: #007AFF;
+    transition: background-color 0.2s ease;
+}
+
+.btn-wishlist:hover {
+    background-color: #2196F3;
+}
+
+.btn-wishlist img {
+    margin-left: -9px;
+    width: 32px;
+    height: 32px;
+
+}
+
+/* Info Produk End */
+
+
+/* Detail Info Start */
+.di-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.di-section {
+    border-bottom: 2px solid #C1C1C1;
+}
+
+.di-detail {
+    display: flex;
+}
+
+.di-detail .text-center {
+    margin: 0 auto;
+}
+
+.di-detail .di-judul {
+    color: #000;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.di-detail .di-ket {
+    color: #707070;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 14px;
+}
+
+.di-detailmb {
+    display: none;
+}
+
+/* Detail Info End */
+
+/* Deskripsi Start */
+.desk-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.deskripsi {
+    color: #707070;
+    line-height: 120%;
+}
+
+/* Deskripsi End */
+
+
+/* User Profile Start */
+.up-start {
+    background: #EEE;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.16);
+    padding: 16px 115px;
+}
+
+.up-profile {
+    gap: 32px;
+}
+
+.up-picprofile {
+    width: 81px;
+    height: 81px;
+}
+
+.up-name {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.up-date {
+    color: #6A747B;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.up-lp a {
+    text-decoration: none;
+    color: #007AFF;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/* User Profile End */
+
+
+/* WISHLIST */
+
+/* Wishlist Start */
+.wishlist {
+    font-weight: 600;
+    font-size: 32px;
+    color: #004897;
+    line-height: 20px;
+}
+
+.card-start-wishlist {
+    position: relative;
+    width: 264px;
+    height: 360px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+}
+
+.card-start-wishlist .harga {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.card-start-wishlist .hapus {
+    margin-top: 14px;
+}
+
+.card-start-wishlist .remove {
+    margin-right: auto;
+    color: #FF5757;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+/* Wishlist End */
+
+
+/* LOGIN */
+
+/* Login Start */
+.login-start {
+    width: 914px;
+    height: 697px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.login-col {
+    display: flex;
+}
+
+.pic-hide {
+    display: none;
+}
+
+.login-title {
+    color: #000;
+    font-size: 32px;
+}
+
+.login-username {
+    color: var(--CoolGray-90, #21272A);
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 21px;
+}
+
+.form-login input {
+    margin-top: 8px;
+}
+
+.login-password {
+    color: var(--CoolGray-90, #21272A);
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 15px;
+}
+
+.icon-pass {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 29%;
+}
+
+.login-forgot {
+    margin-top: 15px;
+}
+
+.login-forgot a {
+    text-decoration: none;
+    color: var(--Primary-90, #001D6C);
+    font-size: 15px;
+    line-height: 140%;
+}
+
+.login-btn {
+    margin-top: 15px;
+}
+
+.login-btn button {
+    width: 436px;
+    padding: 12px 8px;
+    border: 2px solid var(--Primary-60, #0F62FE);
+    background: var(--Primary-60, #0F62FE);
+
+    border: none;
+    color: var(--Default-White, #FFF);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn button:hover {
+    background: var(--Primary-70, #0a57d4);
+}
+
+.login-or {
+    color: var(--CoolGray-90, #21272A);
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 23px;
+}
+
+.login-google {
+    margin-top: 21px;
+}
+
+.login-google button {
+    border: none;
+    width: 436px;
+    padding: 12px 8px;
+    border: 2px solid #000;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.login-google button:hover {
+    background: #f5f5f5;
+    border-color: #ccc;
+}
+
+.login-google img {
+    width: 23px;
+    height: 23px;
+}
+
+.login-dont {
+    color: #000;
+    font-size: 15px;
+    line-height: 140%;
+    margin-top: 25px;
+}
+
+.login-dont a {
+    text-decoration: none;
+    color: var(--Primary-90, #001D6C);
+    font-size: 15px;
+    line-height: 140%;
+}
+
+/* Login End */
+
+
+/* SIGN */
+
+/* Sign Start */
+.sign-start {
+    width: 914px;
+    height: 697px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sign-col {
+    display: flex;
+}
+
+.sign-hide {
+    display: none;
+}
+
+.sign-title {
+    color: #000;
+    font-size: 32px;
+}
+
+.sign-name {
+    color: var(--CoolGray-90, #21272A);
+    font-size: 15px;
+    line-height: 140%;
+    margin-top: 18px;
+}
+
+.form-sign input {
+    margin-top: 8px;
+}
+
+.sign-email {
+    color: var(--CoolGray-90, #21272A);
+    font-size: 15px;
+    line-height: 140%;
+    margin-top: 17px;
+}
+
+.sign-username {
+    color: var(--CoolGray-90, #21272A);
+    font-size: 15px;
+    line-height: 140%;
+    margin-top: 17px;
+}
+
+.sign-password {
+    color: var(--CoolGray-90, #21272A);
+    font-size: 15px;
+    line-height: 140%;
+    margin-top: 17px;
+}
+
+.icon-pass {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 29%;
+}
+
+.sign-confirm {
+    color: var(--CoolGray-90, #21272A);
+    font-size: 15px;
+    line-height: 140%;
+    margin-top: 17px;
+}
+
+.sign-btn {
+    margin-top: 17px;
+}
+
+.sign-btn button {
+    width: 436px;
+    padding: 12px 8px;
+    border: 2px solid var(--Primary-60, #0F62FE);
+    background: var(--Primary-60, #0F62FE);
+
+    border: none;
+    color: var(--Default-White, #FFF);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease;
+}
+
+.sign-btn button:hover {
+    background: var(--Primary-70, #0a57d4);
+}
+
+.sign-already {
+    color: #000;
+    font-size: 15px;
+    line-height: 140%;
+    margin-top: 17px;
+}
+
+.sign-already a {
+    text-decoration: none;
+    color: var(--Primary-90, #001D6C);
+    font-size: 15px;
+    line-height: 140%;
+}
+
+/* Sign End */
+
+
+/* CARA-JUAL */
+
+/* Jual Start */
+.jual-pasang {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.jual-kat {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.jual-display {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.jual-display a {
+    text-decoration: none;
+}
+
+.jual-img {
+    width: 65px;
+    height: 65px;
+}
+
+.jual-title {
+    color: #747576;
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 120%;
+}
+
+.rumah-wrapper {
+    margin-right: 299px;
+}
+
+.hobi-wrapper {
+    margin-right: 299px;
+}
+
+.mobil-wrapper {
+    margin-right: 314px;
+    margin-top: 70px;
+}
+
+.fashion-wrapper {
+    margin-right: 274px;
+    margin-top: 70px;
+}
+
+.olahraga-wrapper {
+    margin-top: 70px;
+}
+
+.motor-wrapper {
+    margin-right: 312px;
+    margin-top: 70px;
+}
+
+.perabot-wrapper {
+    margin-top: 70px;
+}
+
+/* Jual End */
+
+
+/* JUAL FORM */
+
+/* Form Jual Start */
+.formj-pasang {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.formj-atur {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.fj-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 24px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.fj-start .form-control {
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    width: 70%;
+}
+
+.fj-start .form-select {
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    width: 70%;
+}
+
+.fj-start button {
+    font-size: 16px;
+    background-color: #fff;
+    padding: 6px 13px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin-right: 10px;
+}
+
+/* Form Jual End */
+
+/* Unggah Foto Start */
+.uf-section {
+    border-top: 2px solid #747474;
+    border-bottom: 2px solid #747474;
+}
+
+.formj-unggah {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.uf-display {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.uf-event input {
+    display: none;
+}
+
+.uf-card {
+    border: none;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 3px solid #747474;
+    margin-top: 50px;
+    margin-right: 50px;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.uf-card:active {
+    transform: scale(0.9);
+}
+
+/* Unggah Foto End */
+
+/* Konfirmasi Iklan Start */
+.ki-section {
+    border-bottom: 2px solid #747474;
+}
+
+.formj-konfirm {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.ki-section .form-select {
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    width: 70%;
+}
+
+/* Konfirmasi Iklan End */
+
+/* Button Iklan Start */
+.btn-iklan {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #007AFF;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-top: 40px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-iklan:hover {
+    background-color: #2196F3;
+}
+
+/* Button Iklan End */
+
+
+/* PROFILE */
+
+/* Profile Start */
+.p-section {
+    border-bottom: 1px solid #747474;
+}
+
+.p-left {
+    display: block;
+}
+
+.p-right {
+    display: block;
+}
+
+.p-right input {
+    display: none;
+}
+
+.p-leftmb {
+    display: none;
+}
+
+.p-rightmb {
+    display: none;
+}
+
+.p-name {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.p-desc {
+    color: #000;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.p-out {
+    border: none;
+    background-color: #fff;
+    color: #007AFF;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: -3px;
+    margin-top: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.p-out:hover {
+    color: #2196F3;
+}
+
+.p-profile {
+    width: 244px;
+    height: 244px;
+}
+
+.p-right .p-edit {
+    width: 40px;
+    height: 40px;
+    margin-top: -150%;
+    margin-left: 150%;
+}
+
+/* Profile End */
+
+/* Profile Tab Start */
+.tab-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tab-nav li {
+    float: left;
+    margin-right: 80px;
+}
+
+.tab-nav li a {
+    display: block;
+    margin-top: 35px;
+    padding: 10px 15px;
+    text-decoration: none;
+
+    color: #007AFF;
+    font-weight: 500;
+    line-height: 120%;
+    transition: background-color 0.2s ease;
+}
+
+.tab-nav li a:hover {
+    color: #2196F3;
+}
+
+.tab-nav li.active a {
+    border-bottom: 2px solid #007AFF;
+    font-weight: 600;
+}
+
+.tab-content {
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.tab-contentmb {
+    display: none;
+}
+
+.tab-contentmb2 {
+    display: none;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.pt-infom {
+    color: #007AFF;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.pt-title {
+    color: #007AFF;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.pt-detail {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.pt-btnedit {
+    width: 143px;
+    padding: 10px 16px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #007AFF;
+    background-color: #fff;
+
+    color: #007AFF;
+    font-weight: 500;
+    line-height: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.pt-btnedit:hover,
+.pt-btntambahalamat:hover {
+    background-color: #F1F7FF;
+}
+
+.pt-btntambahalamat {
+    width: 250px;
+    padding: 10px 16px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #007AFF;
+    background-color: #fff;
+
+    color: #007AFF;
+    font-weight: 500;
+    line-height: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.pt-tab2 {
+    border-radius: 18px;
+    background: #F1F7FF;
+}
+
+.pt-alamat {
+    color: #6B6B6B;
+    font-weight: 500;
+    line-height: 120%;
+    margin-right: 23px;
+}
+
+.pt-utama {
+    padding: 3px 13px;
+    border-radius: 5px;
+    background: #007AFF;
+
+    color: #FFF;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.pt-name {
+    color: #000;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 15px;
+}
+
+.pt-no {
+    color: #000;
+    line-height: 120%;
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+
+.pt-btn {
+    border: none;
+    background-color: #F1F7FF;
+    color: #007AFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 32px;
+    margin-right: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.pt-btn:hover {
+    color: #2196F3;
+}
+
+.pt-span {
+    color: #C7C7C7;
+    margin-top: 32px;
+    margin-right: 20px;
+}
+
+/* Profile Tab End */
+
+
+/* Alamatm Start */
+.pt-judulm {
+    color: #007AFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pt-btntambahalamatm {
+    transition: background-color 0.2s ease;
+    padding: 8px 14px;
+    flex-shrink: 0;
+    border-radius: var(--Spacing-1, 8px);
+    border: 1px solid #007AFF;
+    background-color: #fff;
+
+    color: #007AFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.pt-btntambahalamatm:hover {
+    background-color: #F1F7FF;
+}
+
+.pt-tab2m {
+    border-radius: 11px;
+    background: #F1F7FF;
+}
+
+.pt-alamatm {
+    font-size: 14px;
+    color: #6B6B6B;
+    font-weight: 500;
+    line-height: 120%;
+    margin-right: 23px;
+}
+
+.pt-utamam {
+    font-size: 14px;
+    padding: 3px 13px;
+    border-radius: 5px;
+    background: #007AFF;
+
+    color: #FFF;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.pt-namem {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 15px;
+}
+
+.pt-nom {
+    font-size: 14px;
+    color: #000;
+    line-height: 120%;
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+
+.pt-btnm {
+    border: none;
+    background-color: #F1F7FF;
+    color: #007AFF;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 32px;
+    margin-right: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.pt-btnm:hover {
+    color: #2196F3;
+}
+
+.pt-spanm {
+    color: #C7C7C7;
+    margin-top: 32px;
+    margin-right: 20px;
+}
+
+/* Alamatm End */
+
+
+/* Profile Seller Start */
+.ps-left .ps-wrap {
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #F1F7FF;
+    margin-top: 23px;
+}
+
+.ps-wrap .ps-title {
+    color: #007AFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.ps-wrap .ps-subtitle {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 22px;
+}
+
+.ps-wrap .ps-ket {
+    color: #000;
+    line-height: 120%;
+    margin-top: 5px;
+}
+
+.ps-leftm {
+    display: none;
+}
+
+/* Profile Seller End */
+
+
+/* NEGO */
+
+/* Nego Start */
+.left-wrapper .offcanvas {
+    width: 57%;
+    height: 100%;
+    margin-top: 5%;
+    margin-right: 8%;
+}
+
+.nego-bar {
+    background: #E4E4E7;
+    margin-left: -12px;
+    margin-right: 10px;
+}
+
+.nego-bar div {
+    color: #3F3E3E;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.nego-bar img {
+    width: 26px;
+    height: 26px;
+}
+
+.left-wrapper .btn-bar {
+    border-radius: 0;
+    margin-left: -12px;
+    margin-right: 10px;
+    background: #DBD8D8;
+}
+
+.nego-pesan .gambar-nego {
+    margin-right: 16px;
+    width: 58px;
+    height: 58px;
+}
+
+.nego-isipesan {
+    margin-right: auto;
+}
+
+.nego-isipesan .name {
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 700;
+    margin-right: 90px;
+}
+
+.nego-isipesan .time {
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nego-isipesan .nama-barang {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nego-isipesan .checkbox {
+    margin-right: 4px;
+    width: 19px;
+    height: 19px;
+}
+
+.nego-isipesan .pesan {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nego-pesan .titik3 {
+    width: 18px;
+    height: 18px;
+}
+
+#offcanvasRightLabel {
+    width: 100%;
+}
+
+.nego-kontak {
+    border-bottom: 1px solid #9A9999;
+    margin-left: -8px;
+    margin-right: -12px;
+    padding: 0 10px 10px 10px;
+}
+
+.nego-kontak .gambar-nego {
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+}
+
+.nego-kontak .name {
+    color: #232323;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.nego-kontak .titik3 {
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+}
+
+.nego-kontak .close {
+    width: 23px;
+    height: 23px;
+}
+
+.offcanvas-body {
+    margin-top: -30px;
+    margin-bottom: 10%;
+}
+
+.offcanvas-body .date {
+    color: #212020;
+    font-weight: 600;
+}
+
+.offcanvas-body .frame-chat {
+    width: 30%;
+    padding: 12px;
+    border-radius: 12px 12px 12px 0px;
+    border: 1px solid #6098D6;
+    background: #FFF;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.frame-chat .text {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    margin-right: auto;
+}
+
+.frame-chat .time {
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.offcanvas-body .frame-chat2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 12px;
+    border-radius: 12px 12px 0px 12px;
+    border: 1px solid #6098D6;
+    background: #FFF;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 475px;
+}
+
+.frame-chat2 .text {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    margin-right: auto;
+}
+
+.frame-chat2 .time {
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.frame-pertanyaan {
+    border-radius: 20px 20px 0px 0px;
+    border-top: 3px solid #000;
+    margin-top: 27%;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.frame-question {
+    border-bottom: 3px solid #232323;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+.frame-question img {
+    width: 27px;
+    height: 27px;
+    margin-right: 8px;
+}
+
+.frame-question div {
+    color: #232323;
+    font-weight: 600;
+}
+
+.frame-qinstan {
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+
+.frame-qinstan button {
+    padding: 6.767px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #747474;
+    margin-right: 10px;
+
+    color: #747474;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.frame-input {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.frame-input input {
+    padding: 8px;
+    background: #DFDBDB;
+
+    color: #5F5D5D;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.frame-input button {
+    border: none;
+    padding: 8px 16px;
+    background: #007AFF;
+
+    color: #FFF;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.frame-input button:hover {
+    background-color: #2196F3;
+}
+
+.right-wrapper {
+    margin-left: -16px;
+    border-left: 8px solid #FAF4F4;
+}
+
+/* Nego End */
+
+
+/* LIST KATEGORI */
+
+/* List Kategori Start */
+.lks-wrapm {
+    display: none;
+}
+
+.list-left {
+    width: 196px;
+    height: 952px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+}
+
+.list-lefth {
+    width: 196px;
+    height: 1082px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+}
+
+.list-leftm {
+    width: 196px;
+    height: 1142px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+}
+
+.list-leftf {
+    width: 196px;
+    height: 1212px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+}
+
+.lks-1 {
+    border-bottom: 1px solid #CFCFCF;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 16px 0 16px 0;
+}
+
+.lks-2 {
+    border-bottom: 1px solid #CFCFCF;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 16px 0 16px 0;
+}
+
+.lks-3 {
+    border-bottom: 1px solid #CFCFCF;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 16px 0 16px 0;
+}
+
+.lks-4 {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 16px 0 16px 0;
+}
+
+.lks-title1 {
+    color: #000;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.form-check {
+    padding: 8px;
+}
+
+.form-check-label {
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.624px;
+}
+
+.form-check-input:checked+.form-check-label {
+    color: #000;
+}
+
+.lks-title1h {
+    width: 196px;
+    height: 77.549px;
+    flex-shrink: 0;
+    border-radius: var(--Spacing-1, 8px) var(--Spacing-1, 8px) 0px 0px;
+    background: #007AFF;
+    margin-left: -3px;
+    margin-top: -3px;
+    padding: 16px;
+
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: uppercase;
+    align-content: center;
+}
+
+.lks-ul {
+    list-style-type: none;
+    margin-top: 16px;
+    margin-left: -16px;
+}
+
+.lks-ul li {
+    margin-top: 12px;
+}
+
+.lks-ul a {
+    text-decoration: none;
+    color: #747474;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.list-left2 {
+    width: 196px;
+    height: 307px;
+    flex-shrink: 0;
+    border-radius: var(--Spacing-1, 8px);
+    border: 3px solid #D9D9D9;
+    background: #FFF;
+    margin-top: 48px;
+}
+
+.lks-title2 {
+    width: 196px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: var(--Spacing-1, 8px) var(--Spacing-1, 8px) 0px 0px;
+    background: #007AFF;
+    margin-left: -3px;
+    margin-top: -3px;
+    padding: 16px;
+
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+    align-content: center;
+}
+
+.lks-input {
+    margin-top: 16px;
+}
+
+.lks-input input {
+    width: 74px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #007AFF;
+
+    color: #007AFF;
+    font-size: 12px;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.lks-ul2 {
+    margin-top: 16px;
+}
+
+.lks-ul2 li {
+    color: #747474;
+    margin-top: 12px;
+}
+
+.lks-ul2 a {
+    text-decoration: none;
+    color: #747474;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.lks-cardstart {
+    position: relative;
+    width: 264px;
+    height: 335px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+}
+
+.lks-card-i {
+    position: relative;
+    width: 231px;
+    height: 181px;
+    top: 15px;
+    left: 15px;
+    object-fit: cover;
+}
+
+.lks-cardstart .harga {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.lks-cardstart .ket {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.lks-cardstart .judul {
+    color: #747474;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.lks-cardstart .loc {
+    color: #747474;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+/* List Kategori End */
+/******************* WEBSITE END ***************/
+/******************* WEBSITE END ***************/
+/******************* WEBSITE END ***************/
+
+
+
+/******************* TABLET START ***************/
+/******************* TABLET START ***************/
+/******************* TABLET START ***************/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 65%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        height: 34px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 10px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+    /* Hero Start */
+    .hero-section {
+        height: 352px;
+    }
+
+    .hero-img {
+        position: absolute;
+        width: 100%;
+        margin-left: -12px;
+    }
+
+    .hero-produk {
+        margin-top: 50px;
+        left: 60px;
+    }
+
+    .hero-text {
+        margin-top: 16px;
+        left: 60px;
+    }
+
+    .btn-mj {
+        margin-top: 24px;
+        left: 60px;
+    }
+
+    /* Hero End */
+
+    /* Kategori2 Start */
+    .kategori2-section {
+        height: 193px;
+    }
+
+    .kategori2-section .kat2-img {
+        /* height: 185px; */
+        padding: 2px;
+    }
+
+    .kategori2-section .kat2-title {
+        margin-top: -42%;
+        margin-left: 16px;
+
+        width: 296px;
+        font-size: 20px;
+    }
+
+    .kategori2-section .kat2-nawar {
+        margin-left: 16px;
+        margin-top: 15px;
+
+        font-size: 16px;
+    }
+
+    .kategori2-section .kat2-beli {
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    .kat2-beli .btn-beli {
+        font-size: 16px;
+    }
+
+    .carousel .carousel-control-prev {
+        margin-left: -11%;
+    }
+
+    .carousel .carousel-control-next {
+        margin-right: -11%;
+    }
+
+    /* Kategori2 End */
+
+    /* Rekomendasi Card Start */
+    .card-start-hidet {
+        display: none;
+    }
+
+    .card-start {
+        position: relative;
+        width: 224px;
+        height: 315px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 0.5px solid;
+        border-color: #959595;
+    }
+
+    .card-i {
+        position: relative;
+        width: 201px;
+        top: 10px;
+        left: 10px;
+        object-fit: cover;
+    }
+
+    .card-start .harga {
+        font-size: 18px;
+        margin-left: -12px;
+    }
+
+    div .tahun {
+        margin-left: 12px;
+    }
+
+    div .judul {
+        margin-left: 12px;
+    }
+
+    div .loc {
+        margin-left: 12px;
+    }
+
+    /* Rekomendasi Card End */
+
+    /* FOOTER */
+    /* Footer Start */
+    .footer-start {
+        padding: 64px 132px 64px 16px;
+    }
+
+    /* Footer End */
+
+    /* Detail Info Start */
+    .di-detail {
+        display: none;
+    }
+
+    .di-detailmb {
+        display: block;
+    }
+
+    .di-detailmb .dmb {
+        margin-top: 11px;
+    }
+
+    .di-detailmb .di-judul {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-right: 10px;
+    }
+
+    .di-detailmb .di-ket {
+        color: #707070;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+    }
+
+    /* Detail Info End */
+
+    /* User Profile Start */
+    .up-start {
+        padding: 16px 48px;
+    }
+
+    .up-date {
+        font-size: 18px;
+    }
+
+    .up-lp a {
+        font-size: 18px;
+    }
+
+    /* User Profile End */
+
+
+    /* WISHLIST */
+
+    /* Wishlist Start */
+    .card-start-wishlist {
+        width: 224px;
+        height: 340px;
+    }
+
+    .card-start-wishlist .harga {
+        font-size: 18px;
+        margin-left: -12px;
+    }
+
+    .card-start-wishlist .card-icon .love {
+        margin-right: -8px;
+        margin-top: -8px;
+        width: 20px;
+        height: 18.33px;
+    }
+
+    .card-start-wishlist .remove {
+        margin-left: -12px;
+    }
+
+    .card-start-wishlist .icon-remove {
+        margin-right: -8px;
+        margin-top: -6px;
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Wishlist End */
+
+
+    /* CARA JUAL */
+
+    /* Jual Start */
+    .jual-img {
+        width: 55px;
+        height: 55.002px;
+    }
+
+    .rumah-wrapper {
+        margin-right: 386px;
+    }
+
+    .hobi-wrapper {
+        margin-right: 0;
+    }
+
+    .perlanak-wrapper {
+        margin-right: 327px;
+        margin-top: 70px;
+    }
+
+    .mobil-wrapper {
+        margin-right: 0;
+    }
+
+    .fashion-wrapper {
+        margin-right: 388px;
+    }
+
+    .motor-wrapper {
+        margin-right: 407px;
+    }
+
+    /* Jual End */
+
+    /* JUAL FORM */
+
+    /* Form Jual Start */
+    .fj-start .form-control {
+        width: 100%;
+    }
+
+    .fj-start .form-select {
+        width: 100%;
+    }
+
+    /* Form Jual End */
+
+    /* Unggah Foto Start */
+    .uf-card {
+        width: 130px;
+        height: 130px;
+        margin-top: 45px;
+        margin-right: 45px;
+    }
+
+    .uf-card img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Unggah Foto End */
+
+    /* Konfirmasi Iklan Start */
+    .ki-section .form-select {
+        width: 100%;
+    }
+
+    /* Konfirmasi Iklan End */
+
+
+    /* NEGO */
+
+    /* Nego Start */
+    .left-wrapper .offcanvas {
+        width: 49%;
+        margin-top: 8%;
+    }
+
+    .nego-bar {
+        margin-left: -12px;
+        margin-right: -7px;
+    }
+
+    .left-wrapper .btn-left {
+        margin-right: -12px;
+        background: #DBD8D8;
+    }
+
+    .nego-pesan .gambar-nego {
+        margin-right: 8px;
+    }
+
+    .nego-isipesan .name {
+        margin-right: 35px;
+    }
+
+    .offcanvas-body {
+        margin-top: -30px;
+    }
+
+    .offcanvas-body .frame-chat {
+        width: 50%;
+    }
+
+    .offcanvas-body .frame-chat2 {
+        margin-left: 175px;
+    }
+
+    .frame-pertanyaan {
+        margin-top: 150%;
+    }
+
+    .right-wrapper {
+        margin-left: 0px;
+        border-left: 4px solid #FAF4F4;
+    }
+
+    /* Nego End */
+
+
+    /* LIST KATEGORI */
+
+    /* List Kategori Start */
+    .lks-wrapm {
+        display: none;
+    }
+
+    .lks-cardstart-hide {
+        display: none;
+    }
+
+    .lks-cardstart {
+        width: 219px;
+        height: 305px;
+    }
+
+    .lks-card-i {
+        width: 196px;
+        height: 181px;
+        top: 12px;
+        left: 11px;
+    }
+
+    .lks-cardstart .harga {
+        font-size: 18px;
+    }
+
+    /* List Kategori End */
+}
+
+/******************* TABLET END ***************/
+/******************* TABLET END ***************/
+/******************* TABLET END ***************/
+
+
+
+/******************* MOBILE START ***************/
+/******************* MOBILE START ***************/
+/******************* MOBILE START ***************/
+@media screen and (min-width: 381px) and (max-width: 450px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 45%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        width: 30%;
+        height: 34px;
+    }
+
+    .button-search img {
+        width: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 5px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* Hero Start */
+    .hero-section {
+        height: 165px;
+    }
+
+    .hero-img {
+        position: absolute;
+        width: 100%;
+        margin-left: -3%;
+    }
+
+    .hero-produk {
+        font-size: 26px;
+        left: 20px;
+        margin-top: 15px;
+    }
+
+    .hero-text {
+        font-size: 10px;
+        left: 20px;
+        margin-top: -5px;
+    }
+
+    .btn-mj {
+        font-size: 10px;
+        width: 103px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        left: 20px;
+        margin-top: -5px;
+    }
+
+    /* Hero End */
+
+
+    /* Kategori Start */
+    .kategori4 {
+        color: #004897;
+        line-height: 120%;
+        font-size: 20px;
+    }
+
+    .kat4ls-wrapper {
+        color: #004897;
+        font-size: 13px;
+        line-height: 120%;
+    }
+
+    .kat4-display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .kat4-wrapper {
+        margin: 0 20px;
+    }
+
+    .kat4-card img {
+        width: 31.181px;
+        height: 31.182px;
+    }
+
+    a .kat4-card p {
+        font-size: 10px;
+    }
+
+    /* Kategori End */
+
+
+    /* Kategori2 Start */
+    .kategori2-section {
+        width: 175px;
+        height: 175px;
+    }
+
+    .kategori2-section .kat2-img {
+        height: 175px;
+        padding: 2px;
+    }
+
+    .kategori2-section .kat2-title {
+        margin-top: -48%;
+        margin-left: 8px;
+
+        width: 166px;
+        font-size: 11px;
+    }
+
+    .kategori2-section .kat2-nawar {
+        margin-left: 8px;
+        margin-top: 4px;
+
+        font-size: 10px;
+    }
+
+    .kategori2-section .kat2-beli {
+        margin-left: 8px;
+        margin-top: 6px;
+        padding: 0px;
+        border-radius: 2.02px;
+        border: 0.808px solid var(--Primary-60, #0F62FE);
+        background: var(--Primary-60, #0F62FE);
+    }
+
+    .kat2-beli .btn-beli {
+        font-size: 10px;
+        margin-right: -6px;
+    }
+
+    .kat2-beli img {
+        margin-top: 3px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .carousel .carousel-control-prev {
+        margin-left: -8%;
+    }
+
+    .carousel .carousel-control-prev img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel .carousel-control-next {
+        margin-right: -8%;
+    }
+
+    .carousel .carousel-control-next img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Kategori2 End */
+
+
+    /* Rekomendasi Card Start */
+    .rekomen {
+        color: #004897;
+        line-height: 120%;
+        font-size: 20px;
+    }
+
+    .rekomls-wrapper {
+        color: #004897;
+        font-size: 13px;
+        line-height: 120%;
+    }
+
+    .card-start {
+        position: relative;
+        width: 175px;
+        height: 255px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 0.5px solid;
+        border-color: #959595;
+    }
+
+    .card-start-hidem {
+        display: none;
+    }
+
+    .card-i {
+        position: relative;
+        width: 152px;
+        top: 10px;
+        left: 10px;
+        object-fit: cover;
+    }
+
+    .card-start .harga {
+        font-size: 16px;
+        margin-left: 13px;
+    }
+
+    .card-icon a img {
+        width: 15px;
+        height: 14px;
+        margin-right: 13px;
+        margin-top: -4px;
+    }
+
+    div .tahun {
+        font-size: 14px;
+        margin-left: 13px;
+        margin-top: 6px;
+    }
+
+    div .judul {
+        font-size: 12px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    div .loc {
+        font-size: 11px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    .btn-loadmore {
+        width: 171px;
+        padding: 10px;
+        border-radius: 5px;
+
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* Rekomendasi Card End */
+
+
+    /* Footer Start */
+    .footer-start {
+        padding: 32px 16px;
+    }
+
+    /* Footer End */
+
+
+    /* DETAIL PRODUK */
+
+    /* Breadcrumb Start */
+    .breadcrumb-tree {
+        display: none;
+    }
+
+    /* Breadcrumb End */
+
+
+    /* Info Produk Start */
+    .ip-title {
+        font-size: 18px;
+    }
+
+    .ip-harga {
+        font-size: 18px;
+    }
+
+    .ip-lokasi {
+        gap: 12px;
+    }
+
+    .icon-lokasi {
+        width: 22.93px;
+        height: 17.337px;
+    }
+
+    .ip-alamat {
+        font-size: 12px;
+    }
+
+    .ip-kalender {
+        gap: 12px;
+    }
+
+    .icon-kalender {
+        width: 22px;
+        height: 22px;
+    }
+
+    .ip-tanggal {
+        font-size: 12px;
+    }
+
+    .ip-wrapper {
+        display: flex;
+        justify-content: start;
+    }
+
+    .btn-nego {
+        width: 77.627px;
+        height: 24.291px;
+        padding: 2.112px 11.09px;
+        border-radius: 4.225px;
+
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .btn-wishlist {
+        width: 32.741px;
+        height: 24.291px;
+        padding: 2.112px 11.09px;
+        border-radius: 4.225px;
+        margin-top: 1px;
+    }
+
+    .btn-wishlist img {
+        margin-top: -7px;
+        margin-left: -4px;
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Info Produk End */
+
+
+    /* Detail Info Start */
+    .di-title {
+        font-size: 14px;
+    }
+
+    .di-detail {
+        display: none;
+    }
+
+    .di-detailmb {
+        display: block;
+    }
+
+    .di-detailmb .dmb {
+        margin-top: 11px;
+    }
+
+    .di-detailmb .di-judul {
+        color: #000;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-right: 10px;
+    }
+
+    .di-detailmb .di-ket {
+        color: #707070;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 120%;
+    }
+
+    /* Detail Info End */
+
+    /* Deskripsi Start */
+    .desk-title {
+        font-size: 14px;
+    }
+
+    .deskripsi {
+        font-size: 12px;
+    }
+
+    /* Deskripsi End */
+
+
+    /* User Profile Start */
+    .up-start {
+        padding: 16px 0px;
+    }
+
+    .up-profile {
+        gap: 16px;
+    }
+
+    .up-picprofile {
+        width: 71px;
+        height: 71px;
+    }
+
+    .up-name {
+        font-size: 14px;
+    }
+
+    .up-date {
+        font-size: 12px;
+    }
+
+    .up-lp a {
+        font-size: 12px;
+    }
+
+    /* User Profile End */
+
+
+    /* WISHLIST */
+
+    /* Wishlist Start */
+    .wishlist {
+        line-height: 120%;
+        font-size: 20px;
+    }
+
+    .card-start-wishlist {
+        position: relative;
+        width: 175px;
+        height: 280px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 0.5px solid;
+        border-color: #959595;
+    }
+
+    .card-start-wishlist .harga {
+        font-size: 14px;
+        margin-left: 13px;
+    }
+
+    .card-start-wishlist .remove {
+        font-size: 12px;
+        margin-left: 13px;
+    }
+
+    .card-icon a img {
+        width: 13px;
+        height: 13px;
+    }
+
+    /* Wishlist End */
+
+
+    /* LOGIN */
+
+    /* Login Start */
+    .login-start {
+        width: 263px;
+        height: 571px;
+    }
+
+    .login-col {
+        display: inline-block;
+    }
+
+    .pic-login {
+        display: none;
+    }
+
+    .pic-hide {
+        display: block;
+    }
+
+    .login-title {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .login-username {
+        font-size: 12px;
+        margin-top: 18px;
+        margin-left: 11px;
+    }
+
+    .form-login input {
+        margin-top: 4px;
+        font-size: 12px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+
+    .login-password {
+        font-size: 12px;
+        margin-top: 8px;
+        margin-left: 11px;
+    }
+
+    .icon-pass {
+        margin-top: 3%;
+        margin-left: 58%;
+        width: 19px;
+        height: 19px;
+    }
+
+    .login-forgot {
+        margin-top: 8px;
+        margin-right: 11px;
+    }
+
+    .login-forgot a {
+        font-size: 12px;
+    }
+
+    .login-btn {
+        margin-top: 15px;
+    }
+
+    .login-btn button {
+        width: 241px;
+        font-size: 12px;
+    }
+
+    .login-or {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    .login-google {
+        margin-top: 12px;
+    }
+
+    .login-google button {
+        width: 241px;
+        font-size: 12px;
+    }
+
+    .login-google img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .login-dont {
+        font-size: 12px;
+        margin-top: 28px;
+    }
+
+    .login-dont a {
+        font-size: 12px;
+    }
+
+    /* Login End */
+
+
+    /* SIGN */
+
+    /* Sign Start */
+    .sign-start {
+        width: 263px;
+        height: 653px;
+    }
+
+    .sign-col {
+        display: inline-block;
+    }
+
+    .sign-login {
+        display: none;
+    }
+
+    .sign-hide {
+        display: block;
+    }
+
+    .sign-title {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .sign-name {
+        font-size: 12px;
+        margin-top: 18px;
+        margin-left: 11px;
+    }
+
+    .form-sign input {
+        margin-top: 4px;
+        font-size: 12px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+
+    .sign-email {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 11px;
+    }
+
+    .sign-username {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 11px;
+    }
+
+    .sign-password {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 11px;
+    }
+
+    .icon-pass {
+        margin-top: 3%;
+        margin-left: 58%;
+        width: 19px;
+        height: 19px;
+    }
+
+    .sign-confirm {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 11px;
+    }
+
+    .sign-btn {
+        margin-top: 22px;
+    }
+
+    .sign-btn button {
+        width: 241px;
+        font-size: 12px;
+    }
+
+    .sign-already {
+        font-size: 12px;
+        margin-top: 28px;
+    }
+
+    .sign-already a {
+        font-size: 12px;
+    }
+
+    /* Sign End */
+
+
+    /* CARA JUAL */
+
+    /* Jual Start */
+    .jual-pasang {
+        font-size: 15px;
+    }
+
+    .jual-kat {
+        font-size: 16px;
+    }
+
+    .jual-title {
+        font-size: 15px;
+    }
+
+    .jual-img {
+        width: 40px;
+        height: 40.001px;
+    }
+
+    .rumah-wrapper {
+        margin-top: 40px;
+        margin-left: 23%;
+    }
+
+    .hobi-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    .perlanak-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+        margin-right: 0;
+    }
+
+    .mobil-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    .fashion-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    .olahraga-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    .motor-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    .perabot-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    /* Jual End */
+
+
+    /* JUAL FORM */
+
+    /* Form Jual Start */
+    .formj-pasang {
+        font-size: 15px;
+    }
+
+    .formj-atur {
+        font-size: 16px;
+    }
+
+    .fj-start .form-control {
+        font-size: 14px;
+        border: 1px solid #000;
+        width: 100%;
+    }
+
+    .fj-start .form-select {
+        font-size: 14px;
+        border: 1px solid #000;
+        width: 100%;
+    }
+
+    .fj-start button {
+        font-size: 14px;
+        border: 1px solid #000;
+    }
+
+    /* Form Jual End */
+
+    /* Unggah Foto Start */
+    .uf-section {
+        border-top: 1px solid #747474;
+        border-bottom: 1px solid #747474;
+    }
+
+    .formj-unggah {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .uf-card {
+        width: 84px;
+        height: 84px;
+        border: 2px solid #747474;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .uf-card img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Unggah Foto End */
+
+    /* Konfirmasi Iklan Start */
+    .formj-konfirm {
+        font-size: 16px;
+    }
+
+    .ki-section .form-select {
+        font-size: 14px;
+        border: 1px solid #000;
+        width: 100%;
+    }
+
+    /* Konfirmasi Iklan End */
+
+    /* Button Iklan Start */
+    .btn-iklan {
+        padding: 10px 20px;
+
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 24px;
+    }
+
+    /* Button Iklan End */
+
+
+    /* PROFILE */
+
+    /* Profile Start */
+    .p-section {
+        border-bottom: 12px solid #F1F7FF;
+    }
+
+    .p-left {
+        display: none;
+    }
+
+    .p-right {
+        display: none;
+    }
+
+    .p-leftmb {
+        display: block;
+    }
+
+    .p-rightmb {
+        display: block;
+        margin-left: -6%;
+    }
+
+    .p-leftmb .p-profile {
+        width: 90px;
+        height: 90px;
+    }
+
+    .p-leftmb input {
+        display: none;
+    }
+
+    .p-leftmb .p-edit {
+        width: 20px;
+        height: 20px;
+        margin-top: -200%;
+        margin-left: 300%;
+    }
+
+    .p-rightmb .p-name {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .p-rightmb .p-email {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    .p-rightmb .p-editpr {
+        padding: 4px 24px;
+        background-color: #fff;
+        border-radius: 4px;
+        border: 1px solid #007AFF;
+
+        color: #007AFF;
+        font-size: 12px;
+        transition: background-color 0.2s ease;
+    }
+
+    .p-rightmb .p-editpr:hover {
+        background-color: #F1F7FF;
+    }
+
+    /* Profile End */
+
+    /* Profile Tab Start */
+    .tab-nav {
+        display: none;
+    }
+
+    .tab-content {
+        display: none;
+    }
+
+    .tab-contentmb {
+        display: block;
+        border-bottom: 12px solid #F1F7FF;
+    }
+
+    .tab-contentmb2 {
+        display: block;
+    }
+
+    .tab-contentmb a {
+        text-decoration: none;
+    }
+
+    .tab-contentmb .pt-info {
+        color: #000;
+        font-weight: 500;
+        margin-left: 22px;
+    }
+
+    .tab-contentmb .pt-alamat {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    .tab-contentmb .pt-fav {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    .tab-contentmb2 .pt-logout {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    /* Profile Tab End */
+
+    /* Profile Seller Start */
+    .ps-left {
+        display: none;
+    }
+
+    .ps-leftm {
+        display: block;
+    }
+
+    .ps-leftm .ps-title {
+        color: #000;
+        font-size: 24px;
+        line-height: 120%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .ps-leftm .ps-subtitle {
+        color: #000;
+        font-size: 14px;
+        line-height: 120%;
+        margin-bottom: 6px;
+    }
+
+    .ps-leftm .ps-ket {
+        color: #ADADAD;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+
+    /* Profile Seller End */
+
+
+    /* NEGO */
+
+    /* Nego Start */
+    .left-wrapper .offcanvas {
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+
+    .right-wrapper {
+        display: none;
+    }
+
+    .nego-bar {
+        margin-right: -12px;
+    }
+
+    .left-wrapper .btn-bar {
+        margin-right: -12px;
+    }
+
+    .nego-kontak {
+        align-items: center;
+        background: #F0F0F0;
+        border-bottom: none;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: 4px 8px 4px 8px;
+    }
+
+    .nego-kontak .gambar-nego {
+        margin-right: 8px;
+        /* margin-left: 12px; */
+        width: 45px;
+        height: 45px;
+    }
+
+    .nego-kontak .name {
+        font-weight: 600;
+    }
+
+    .nego-kontak .titik3 {
+        display: none;
+    }
+
+    .nego-kontak .close {
+        display: none;
+    }
+
+    .offcanvas-body {
+        margin-bottom: 8%;
+    }
+
+    .offcanvas-body .date {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .offcanvas-body .frame-chat {
+        width: 55%;
+        padding: 8px;
+        border-radius: 8px 8px 8px 0px;
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+
+    .offcanvas-body .frame-chat2 {
+        padding: 8px;
+        border-radius: 8px 8px 0px 8px;
+        margin-right: 12px;
+        margin-left: 150px;
+    }
+
+    .frame-pertanyaan {
+        margin-top: 80%;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .frame-question {
+        border-bottom: 3px solid #232323;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 16px;
+    }
+
+    .frame-question img {
+        width: 24px;
+        height: 24px;
+        margin-right: 6px;
+    }
+
+    .frame-question div {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .frame-qinstan {
+        margin-left: 12px;
+        margin-bottom: 16px;
+    }
+
+    .frame-input {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .frame-input input {
+        padding: 6px;
+
+        font-size: 14px;
+        margin-right: 6px;
+    }
+
+    .frame-input button {
+        border: none;
+        padding: 6px 12px;
+        background: #007AFF;
+        font-size: 14px;
+    }
+
+    /* Nego End */
+
+
+    /* LIST KATEGORI */
+
+    /* List Kategori Start */
+    .lks-wrap {
+        display: none;
+    }
+
+    .lks-wrapm {
+        display: block;
+    }
+
+    .lks-start {
+        display: flex;
+        height: 57px;
+        border-radius: 35px;
+        border: 1px solid #C4C4C4;
+        background: #FFF;
+        align-items: center;
+        padding: 8px;
+        gap: 16px;
+    }
+
+    .lks-wrapm .input-group {
+        margin-left: 8px;
+        gap: 8px;
+    }
+
+    .lks-wrapm .input-group .form-control {
+        border: none;
+    }
+
+    .lks-wrapm .filter {
+        width: 109px;
+        height: 43px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #F2F3F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.2s ease;
+    }
+
+    .lks-wrapm .filter:hover {
+        background-color: #D9DBE1;
+    }
+
+    .lks-wrapm .filter .btn-filter {
+        display: flex;
+        border: none;
+        gap: 8px;
+        color: #000;
+        font-weight: 600;
+        background: none;
+    }
+
+    .lks-wrapm .offcanvas {
+        width: 80%;
+    }
+
+    .lks-cardstart-hide {
+        display: none;
+    }
+
+    .lks-cardstart {
+        width: 175px;
+        height: 265px;
+    }
+
+    .lks-card-i {
+        width: 152px;
+        height: 105px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .lks-cardstart .harga {
+        font-size: 16px;
+        margin-left: 13px;
+    }
+
+    .lks-cardstart .ket {
+        font-size: 14px;
+        margin-left: 13px;
+        margin-top: 6px;
+    }
+
+    .lks-cardstart .judul {
+        font-size: 12px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    .lks-cardstart .loc {
+        font-size: 11px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    /* List Kategori End */
+}
+
+/******************* MOBILE END ***************/
+/******************* MOBILE END ***************/
+/******************* MOBILE END ***************/
+
+
+
+/******************* MOBILE START ***************/
+/******************* MOBILE START ***************/
+/******************* MOBILE START ***************/
+@media screen and (min-width: 350px) and (max-width: 380px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 43%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        height: 34px;
+    }
+
+    .button-search img {
+        width: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 10px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* Hero Start */
+    .hero-section {
+        height: 165px;
+    }
+
+    .hero-img {
+        position: absolute;
+        width: 100%;
+        margin-left: -12px;
+    }
+
+    .hero-produk {
+        font-size: 26px;
+        left: 20px;
+        margin-top: 15px;
+    }
+
+    .hero-text {
+        font-size: 10px;
+        left: 20px;
+        margin-top: -5px;
+    }
+
+    .btn-mj {
+        font-size: 10px;
+        width: 103px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        left: 20px;
+        margin-top: -5px;
+    }
+
+    /* Hero End */
+
+
+    /* Kategori Start */
+    .kategori4 {
+        color: #004897;
+        line-height: 120%;
+        font-size: 20px;
+    }
+
+    .kat4ls-wrapper {
+        color: #004897;
+        font-size: 13px;
+        line-height: 120%;
+    }
+
+    .kat4-display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .kat4-wrapper {
+        margin: 0 20px;
+    }
+
+    .kat4-card img {
+        width: 31.181px;
+        height: 31.182px;
+    }
+
+    a .kat4-card p {
+        font-size: 10px;
+    }
+
+    /* Kategori End */
+
+
+    /* Kategori2 Start */
+    .kategori2-section {
+        width: 175px;
+        height: 175px;
+    }
+
+    .kategori2-section .kat2-img {
+        height: 175px;
+        padding: 2px;
+    }
+
+    .kategori2-section .kat2-title {
+        margin-top: -48%;
+        margin-left: 8px;
+
+        width: 166px;
+        font-size: 11px;
+    }
+
+    .kategori2-section .kat2-nawar {
+        margin-left: 8px;
+        margin-top: 4px;
+
+        font-size: 10px;
+    }
+
+    .kategori2-section .kat2-beli {
+        margin-left: 8px;
+        margin-top: 6px;
+        padding: 0px;
+        border-radius: 2.02px;
+        border: 0.808px solid var(--Primary-60, #0F62FE);
+        background: var(--Primary-60, #0F62FE);
+    }
+
+    .kat2-beli .btn-beli {
+        font-size: 10px;
+        margin-right: -6px;
+    }
+
+    .kat2-beli img {
+        margin-top: 3px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .carousel .carousel-control-prev {
+        margin-left: -7%;
+    }
+
+    .carousel .carousel-control-prev img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel .carousel-control-next {
+        margin-right: -7%;
+    }
+
+    .carousel .carousel-control-next img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Kategori2 End */
+
+
+    /* Rekomendasi Card Start */
+    .rekomen {
+        color: #004897;
+        line-height: 120%;
+        font-size: 20px;
+    }
+
+    .rekomls-wrapper {
+        color: #004897;
+        font-size: 13px;
+        line-height: 120%;
+    }
+
+    .card-start {
+        position: relative;
+        width: 160px;
+        height: 240px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 0.5px solid;
+        border-color: #959595;
+    }
+
+    .card-start-hidem {
+        display: none;
+    }
+
+    .card-i {
+        position: relative;
+        width: 137px;
+        top: 10px;
+        left: 10px;
+        object-fit: cover;
+    }
+
+    .card-start .harga {
+        font-size: 14px;
+        margin-left: 13px;
+    }
+
+    .card-icon a img {
+        width: 15px;
+        height: 14px;
+        margin-right: 13px;
+        margin-top: -6px;
+    }
+
+    div .tahun {
+        font-size: 12px;
+        margin-left: 13px;
+        margin-top: 6px;
+    }
+
+    div .judul {
+        font-size: 12px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    div .loc {
+        font-size: 10px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    .btn-loadmore {
+        width: 171px;
+        padding: 10px;
+        border-radius: 5px;
+
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* Rekomendasi Card End */
+
+
+    /* Footer Start */
+    .footer-start {
+        padding: 32px 16px;
+    }
+
+    /* Footer End */
+
+
+    /* DETAIL PRODUK */
+
+    /* Breadcrumb Start */
+    .breadcrumb-tree {
+        display: none;
+    }
+
+    /* Breadcrumb End */
+
+
+    /* Info Produk Start */
+    .ip-title {
+        font-size: 18px;
+    }
+
+    .ip-harga {
+        font-size: 18px;
+    }
+
+    .ip-lokasi {
+        gap: 12px;
+    }
+
+    .icon-lokasi {
+        width: 22.93px;
+        height: 17.337px;
+    }
+
+    .ip-alamat {
+        font-size: 12px;
+    }
+
+    .ip-kalender {
+        gap: 12px;
+    }
+
+    .icon-kalender {
+        width: 22px;
+        height: 22px;
+    }
+
+    .ip-tanggal {
+        font-size: 12px;
+    }
+
+    .ip-wrapper {
+        display: flex;
+        justify-content: start;
+    }
+
+    .btn-nego {
+        width: 77.627px;
+        height: 24.291px;
+        padding: 2.112px 11.09px;
+        border-radius: 4.225px;
+
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .btn-wishlist {
+        width: 32.741px;
+        height: 24.291px;
+        padding: 2.112px 11.09px;
+        border-radius: 4.225px;
+        margin-top: 1px;
+    }
+
+    .btn-wishlist img {
+        margin-top: -7px;
+        margin-left: -4px;
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Info Produk End */
+
+
+    /* Detail Info Start */
+    .di-title {
+        font-size: 14px;
+    }
+
+    .di-detail {
+        display: none;
+    }
+
+    .di-detailmb {
+        display: block;
+    }
+
+    .di-detailmb .dmb {
+        margin-top: 11px;
+    }
+
+    .di-detailmb .di-judul {
+        color: #000;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-right: 10px;
+    }
+
+    .di-detailmb .di-ket {
+        color: #707070;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 120%;
+    }
+
+    /* Detail Info End */
+
+    /* Deskripsi Start */
+    .desk-title {
+        font-size: 14px;
+    }
+
+    .deskripsi {
+        font-size: 12px;
+    }
+
+    /* Deskripsi End */
+
+
+    /* User Profile Start */
+    .up-start {
+        padding: 16px 0px;
+    }
+
+    .up-profile {
+        gap: 16px;
+    }
+
+    .up-picprofile {
+        width: 71px;
+        height: 71px;
+    }
+
+    .up-name {
+        font-size: 14px;
+    }
+
+    .up-date {
+        font-size: 12px;
+    }
+
+    .up-lp a {
+        font-size: 12px;
+    }
+
+    /* User Profile End */
+
+
+    /* WISHLIST */
+
+    /* Wishlist Start */
+    .wishlist {
+        line-height: 120%;
+        font-size: 20px;
+    }
+
+    .card-start-wishlist {
+        position: relative;
+        width: 160px;
+        height: 265px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 0.5px solid;
+        border-color: #959595;
+    }
+
+    .card-start-wishlist .harga {
+        font-size: 14px;
+        margin-left: 13px;
+    }
+
+    .card-start-wishlist .remove {
+        font-size: 12px;
+        margin-left: 13px;
+    }
+
+    .card-icon a img {
+        width: 13px;
+        height: 13px;
+    }
+
+    /* Wishlist End */
+
+
+    /* LOGIN */
+
+    /* Login Start */
+    .login-start {
+        width: 263px;
+        height: 571px;
+    }
+
+    .login-col {
+        display: inline-block;
+    }
+
+    .pic-login {
+        display: none;
+    }
+
+    .pic-hide {
+        display: block;
+    }
+
+    .login-title {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .login-username {
+        font-size: 12px;
+        margin-top: 18px;
+        margin-left: 11px;
+    }
+
+    .form-login input {
+        margin-top: 4px;
+        font-size: 12px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+
+    .login-password {
+        font-size: 12px;
+        margin-top: 8px;
+        margin-left: 11px;
+    }
+
+    .icon-pass {
+        margin-top: 3%;
+        margin-left: 58%;
+        width: 19px;
+        height: 19px;
+    }
+
+    .login-forgot {
+        margin-top: 8px;
+        margin-right: 11px;
+    }
+
+    .login-forgot a {
+        font-size: 12px;
+    }
+
+    .login-btn {
+        margin-top: 15px;
+    }
+
+    .login-btn button {
+        width: 241px;
+        font-size: 12px;
+    }
+
+    .login-or {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    .login-google {
+        margin-top: 12px;
+    }
+
+    .login-google button {
+        width: 241px;
+        font-size: 12px;
+    }
+
+    .login-google img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .login-dont {
+        font-size: 12px;
+        margin-top: 28px;
+    }
+
+    .login-dont a {
+        font-size: 12px;
+    }
+
+    /* Login End */
+
+
+    /* SIGN */
+
+    /* Sign Start */
+    .sign-start {
+        width: 263px;
+        height: 653px;
+    }
+
+    .sign-col {
+        display: inline-block;
+    }
+
+    .sign-login {
+        display: none;
+    }
+
+    .sign-hide {
+        display: block;
+    }
+
+    .sign-title {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .sign-name {
+        font-size: 12px;
+        margin-top: 18px;
+        margin-left: 11px;
+    }
+
+    .form-sign input {
+        margin-top: 4px;
+        font-size: 12px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+
+    .sign-email {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 11px;
+    }
+
+    .sign-username {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 11px;
+    }
+
+    .sign-password {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 11px;
+    }
+
+    .icon-pass {
+        margin-top: 3%;
+        margin-left: 58%;
+        width: 19px;
+        height: 19px;
+    }
+
+    .sign-confirm {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 11px;
+    }
+
+    .sign-btn {
+        margin-top: 22px;
+    }
+
+    .sign-btn button {
+        width: 241px;
+        font-size: 12px;
+    }
+
+    .sign-already {
+        font-size: 12px;
+        margin-top: 28px;
+    }
+
+    .sign-already a {
+        font-size: 12px;
+    }
+
+    /* Sign End */
+
+
+    /* CARA JUAL */
+
+    /* Jual Start */
+    .jual-pasang {
+        font-size: 15px;
+    }
+
+    .jual-kat {
+        font-size: 16px;
+    }
+
+    .jual-title {
+        font-size: 15px;
+    }
+
+    .jual-img {
+        width: 40px;
+        height: 40.001px;
+    }
+
+    .rumah-wrapper {
+        margin-top: 40px;
+        margin-left: 23%;
+    }
+
+    .hobi-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    .perlanak-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+        margin-right: 0;
+    }
+
+    .mobil-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    .fashion-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    .olahraga-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    .motor-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    .perabot-wrapper {
+        margin-top: 50px;
+        margin-left: 23%;
+    }
+
+    /* Jual End */
+
+
+    /* JUAL FORM */
+
+    /* Form Jual Start */
+    .formj-pasang {
+        font-size: 15px;
+    }
+
+    .formj-atur {
+        font-size: 16px;
+    }
+
+    .fj-start .form-control {
+        font-size: 14px;
+        border: 1px solid #000;
+        width: 100%;
+    }
+
+    .fj-start .form-select {
+        font-size: 14px;
+        border: 1px solid #000;
+        width: 100%;
+    }
+
+    .fj-start button {
+        font-size: 14px;
+        border: 1px solid #000;
+    }
+
+    /* Form Jual End */
+
+    /* Unggah Foto Start */
+    .uf-section {
+        border-top: 1px solid #747474;
+        border-bottom: 1px solid #747474;
+    }
+
+    .formj-unggah {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .uf-card {
+        width: 84px;
+        height: 84px;
+        border: 2px solid #747474;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .uf-card img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Unggah Foto End */
+
+    /* Konfirmasi Iklan Start */
+    .formj-konfirm {
+        font-size: 16px;
+    }
+
+    .ki-section .form-select {
+        font-size: 14px;
+        border: 1px solid #000;
+        width: 100%;
+    }
+
+    /* Konfirmasi Iklan End */
+
+    /* Button Iklan Start */
+    .btn-iklan {
+        padding: 10px 20px;
+
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 24px;
+    }
+
+    /* Button Iklan End */
+
+
+    /* PROFILE */
+
+    /* Profile Start */
+    .p-section {
+        border-bottom: 12px solid #F1F7FF;
+    }
+
+    .p-left {
+        display: none;
+    }
+
+    .p-right {
+        display: none;
+    }
+
+    .p-leftmb {
+        display: block;
+    }
+
+    .p-rightmb {
+        display: block;
+        margin-left: -6%;
+    }
+
+    .p-leftmb .p-profile {
+        width: 90px;
+        height: 90px;
+    }
+
+    .p-leftmb input {
+        display: none;
+    }
+
+    .p-leftmb .p-edit {
+        width: 20px;
+        height: 20px;
+        margin-top: -200%;
+        margin-left: 300%;
+    }
+
+    .p-rightmb .p-name {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .p-rightmb .p-email {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    .p-rightmb .p-editpr {
+        padding: 4px 24px;
+        background-color: #fff;
+        border-radius: 4px;
+        border: 1px solid #007AFF;
+
+        color: #007AFF;
+        font-size: 12px;
+        transition: background-color 0.2s ease;
+    }
+
+    .p-rightmb .p-editpr:hover {
+        background-color: #F1F7FF;
+    }
+
+    /* Profile End */
+
+    /* Profile Tab Start */
+    .tab-nav {
+        display: none;
+    }
+
+    .tab-content {
+        display: none;
+    }
+
+    .tab-contentmb {
+        display: block;
+        border-bottom: 12px solid #F1F7FF;
+    }
+
+    .tab-contentmb2 {
+        display: block;
+    }
+
+    .tab-contentmb a {
+        text-decoration: none;
+    }
+
+    .tab-contentmb .pt-info {
+        color: #000;
+        font-weight: 500;
+        margin-left: 22px;
+    }
+
+    .tab-contentmb .pt-alamat {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    .tab-contentmb .pt-fav {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    .tab-contentmb2 .pt-logout {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    /* Profile Tab End */
+
+
+    /* Profile Seller Start */
+    .ps-left {
+        display: none;
+    }
+
+    .ps-leftm {
+        display: block;
+    }
+
+    .ps-leftm .ps-title {
+        color: #000;
+        font-size: 24px;
+        line-height: 120%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .ps-leftm .ps-subtitle {
+        color: #000;
+        font-size: 14px;
+        line-height: 120%;
+        margin-bottom: 6px;
+    }
+
+    .ps-leftm .ps-ket {
+        color: #ADADAD;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+
+    /* Profile Seller End */
+
+
+    /* NEGO */
+
+    /* Nego Start */
+    .left-wrapper .offcanvas {
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+
+    .right-wrapper {
+        display: none;
+    }
+
+    .nego-bar {
+        margin-right: -12px;
+    }
+
+    .left-wrapper .btn-bar {
+        margin-right: -12px;
+    }
+
+    .nego-kontak {
+        align-items: center;
+        background: #F0F0F0;
+        border-bottom: none;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: 4px 8px 4px 8px;
+    }
+
+    .nego-kontak .gambar-nego {
+        margin-right: 8px;
+        /* margin-left: 12px; */
+        width: 45px;
+        height: 45px;
+    }
+
+    .nego-kontak .name {
+        font-weight: 600;
+    }
+
+    .nego-kontak .titik3 {
+        display: none;
+    }
+
+    .nego-kontak .close {
+        display: none;
+    }
+
+    .offcanvas-body {
+        margin-bottom: 8%;
+    }
+
+    .offcanvas-body .date {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .offcanvas-body .frame-chat {
+        width: 55%;
+        padding: 8px;
+        border-radius: 8px 8px 8px 0px;
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+
+    .offcanvas-body .frame-chat2 {
+        padding: 8px;
+        border-radius: 8px 8px 0px 8px;
+        margin-right: 12px;
+        margin-left: 150px;
+    }
+
+    .frame-pertanyaan {
+        margin-top: 95%;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .frame-question {
+        border-bottom: 3px solid #232323;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 16px;
+    }
+
+    .frame-question img {
+        width: 24px;
+        height: 24px;
+        margin-right: 6px;
+    }
+
+    .frame-question div {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .frame-qinstan {
+        margin-left: 12px;
+        margin-bottom: 16px;
+    }
+
+    .frame-input {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .frame-input input {
+        padding: 6px;
+
+        font-size: 14px;
+        margin-right: 6px;
+    }
+
+    .frame-input button {
+        border: none;
+        padding: 6px 12px;
+        background: #007AFF;
+        font-size: 14px;
+    }
+
+    /* Nego End */
+
+
+    /* LIST KATEGORI */
+
+    /* List Kategori Start */
+    .lks-wrap {
+        display: none;
+    }
+
+    .lks-wrapm {
+        display: block;
+    }
+
+    .lks-start {
+        display: flex;
+        height: 57px;
+        border-radius: 35px;
+        border: 1px solid #C4C4C4;
+        background: #FFF;
+        align-items: center;
+        padding: 8px;
+        gap: 16px;
+    }
+
+    .lks-wrapm .input-group {
+        margin-left: 8px;
+        gap: 8px;
+    }
+
+    .lks-wrapm .input-group .form-control {
+        border: none;
+    }
+
+    .lks-wrapm .filter {
+        width: 109px;
+        height: 43px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #F2F3F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.2s ease;
+    }
+
+    .lks-wrapm .filter:hover {
+        background-color: #D9DBE1;
+    }
+
+    .lks-wrapm .filter .btn-filter {
+        display: flex;
+        border: none;
+        gap: 8px;
+        color: #000;
+        font-weight: 600;
+        background: none;
+    }
+
+    .lks-wrapm .offcanvas {
+        width: 80%;
+    }
+
+    .lks-cardstart-hide {
+        display: none;
+    }
+
+    .lks-cardstart {
+        width: 160px;
+        height: 240px;
+    }
+
+    .lks-card-i {
+        width: 137px;
+        height: 105px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .lks-cardstart .harga {
+        font-size: 14px;
+        margin-left: 13px;
+    }
+
+    .lks-cardstart .ket {
+        font-size: 13px;
+        margin-left: 13px;
+        margin-top: 6px;
+    }
+
+    .lks-cardstart .judul {
+        font-size: 12px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    .lks-cardstart .loc {
+        font-size: 11px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    /* List Kategori End */
+}
+
+/******************* MOBILE END ***************/
+/******************* MOBILE END ***************/
+/******************* MOBILE END ***************/

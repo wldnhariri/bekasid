@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Logo Title Bar -->
+    <link rel="icon" href="../assets/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="nav-hide navbar-brand" href="../index.html">
+                <img src="../assets/logo.svg" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+                Bekas.id</a>
+            <form class="nav-input-hide mx-auto mt-2 mb-2">
+                <input class="input-search me-2" type="search" placeholder="Temukan" aria-label="Temukan">
+                <button class="button-search" type="submit"><img src="../assets/icon-search.svg"
+                        alt="search-icon"></button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="nav-input mx-auto mt-2 mb-2">
+                    <input class="input-search me-2" type="search" placeholder="Temukan" aria-label="Temukan">
+                    <button class="button-search" type="submit"><img src="../assets/icon-search.svg"
+                            alt="search-icon"></button>
+                </form>
+
+                <div class="button-wrapper mx-auto">
+                    <a href="../wishlist/index.html" class="btn-wish mx-auto">
+                        <button class="button-wishlist me-md-4"><img src="../assets/icon-wishlist.svg" alt=""></button>
+                    </a>
+                </div>
+
+                <div class="button-wrapper2 d-flex">
+                    <a href="../login/index.html">
+                        <button class="button-login me-md-2 me-2" type="submit">Masuk</button>
+                    </a>
+                    <a href="../cara-jual/index.html">
+                        <button class="button-jual" type="submit">Jual</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- List Kategori Start -->
+    <div class="container mt-sm-4 mt-3">
+        <div class="row">
+            <div class="lks-wrap col-lg-3 col-md-4">
+                <div class="list-leftf mx-auto">
+                    <div class="lks-1">
+                        <div class="lks-title1">Kategori Utama</div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Properti
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Hobi & Olahraga
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                            <label class="form-check-label" for="flexRadioDefault3">
+                                Kendaraan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4"
+                                checked>
+                            <label class="form-check-label" for="flexRadioDefault4">
+                                Fashion
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="lks-2">
+                        <div class="lks-title1">Kategori</div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault5"
+                                checked>
+                            <label class="form-check-label" for="flexRadioDefault5">
+                                Pria
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault2"
+                                id="flexRadioDefault6">
+                            <label class="form-check-label" for="flexRadioDefault6">
+                                Wanita
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="lks-3">
+                        <div class="lks-title1">Detail Kategori</div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                id="flexRadioDefault7">
+                            <label class="form-check-label" for="flexRadioDefault7">
+                                Topi
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                id="flexRadioDefault8">
+                            <label class="form-check-label" for="flexRadioDefault8">
+                                Sepatu
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                id="flexRadioDefault9">
+                            <label class="form-check-label" for="flexRadioDefault9">
+                                Tas
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                id="flexRadioDefault10">
+                            <label class="form-check-label" for="flexRadioDefault10">
+                                Backpack
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                id="flexRadioDefault11">
+                            <label class="form-check-label" for="flexRadioDefault11">
+                                Kemeja
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                id="flexRadioDefault12">
+                            <label class="form-check-label" for="flexRadioDefault12">
+                                T-Shirt
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                id="flexRadioDefault13">
+                            <label class="form-check-label" for="flexRadioDefault13">
+                                Celana
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                id="flexRadioDefault14">
+                            <label class="form-check-label" for="flexRadioDefault14">
+                                Jaket
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                id="flexRadioDefault15">
+                            <label class="form-check-label" for="flexRadioDefault15">
+                                Jam Tangan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                id="flexRadioDefault16">
+                            <label class="form-check-label" for="flexRadioDefault16">
+                                Hijab
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="lks-4">
+                        <div class="lks-title1">Harga</div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4"
+                                id="flexRadioDefault17" checked>
+                            <label class="form-check-label" for="flexRadioDefault17">
+                                < 10 Juta </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4"
+                                id="flexRadioDefault18">
+                            <label class="form-check-label" for="flexRadioDefault18">
+                                10 Juta - 20 Juta
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4"
+                                id="flexRadioDefault19">
+                            <label class="form-check-label" for="flexRadioDefault19">
+                                20 Juta - 30 Juta
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4"
+                                id="flexRadioDefault20">
+                            <label class="form-check-label" for="flexRadioDefault20">
+                                30 Juta - 40 Juta
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4"
+                                id="flexRadioDefault21">
+                            <label class="form-check-label" for="flexRadioDefault21">
+                                40 Juta - 50 Juta
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4"
+                                id="flexRadioDefault22">
+                            <label class="form-check-label" for="flexRadioDefault22">
+                                > 50 Juta
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lks-wrapm col-12 mb-3">
+                <div class="lks-start">
+                    <div class="input-group">
+                        <img src="../assets/list-kategori/search.svg" alt="">
+                        <input type="text" class="form-control" aria-label="Cari" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="filter">
+                        <button class="btn-filter" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <img src="../assets/list-kategori/filter-sharp.svg" alt="">
+                            Filter
+                        </button>
+
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <h5></h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="lks-1">
+                                    <div class="lks-title1">Kategori Utama</div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault5"
+                                            id="flexRadioDefault23">
+                                        <label class="form-check-label" for="flexRadioDefault23">
+                                            Properti
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault5"
+                                            id="flexRadioDefault24">
+                                        <label class="form-check-label" for="flexRadioDefault24">
+                                            Hobi & Olahraga
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault5"
+                                            id="flexRadioDefault25">
+                                        <label class="form-check-label" for="flexRadioDefault25">
+                                            Kendaraan
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault5"
+                                            id="flexRadioDefault26" checked>
+                                        <label class="form-check-label" for="flexRadioDefault26">
+                                            Fashion
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="lks-2">
+                                    <div class="lks-title1">Kategori</div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault6"
+                                            id="flexRadioDefault27" checked>
+                                        <label class="form-check-label" for="flexRadioDefault27">
+                                            Pria
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault6"
+                                            id="flexRadioDefault28">
+                                        <label class="form-check-label" for="flexRadioDefault28">
+                                            Wanita
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="lks-3">
+                                    <div class="lks-title1">Detail Kategori</div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault7"
+                                            id="flexRadioDefault29">
+                                        <label class="form-check-label" for="flexRadioDefault29">
+                                            Topi
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault7"
+                                            id="flexRadioDefault30">
+                                        <label class="form-check-label" for="flexRadioDefault30">
+                                            Sepatu
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault7"
+                                            id="flexRadioDefault31">
+                                        <label class="form-check-label" for="flexRadioDefault31">
+                                            Tas
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault7"
+                                            id="flexRadioDefault32">
+                                        <label class="form-check-label" for="flexRadioDefault32">
+                                            Backpack
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault7"
+                                            id="flexRadioDefault33">
+                                        <label class="form-check-label" for="flexRadioDefault33">
+                                            Kemeja
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault7"
+                                            id="flexRadioDefault34">
+                                        <label class="form-check-label" for="flexRadioDefault34">
+                                            T-Shirt
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault7"
+                                            id="flexRadioDefault35">
+                                        <label class="form-check-label" for="flexRadioDefault35">
+                                            Celana
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault7"
+                                            id="flexRadioDefault36">
+                                        <label class="form-check-label" for="flexRadioDefault36">
+                                            Jaket
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault7"
+                                            id="flexRadioDefault37">
+                                        <label class="form-check-label" for="flexRadioDefault37">
+                                            Jam Tangan
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault7"
+                                            id="flexRadioDefault38">
+                                        <label class="form-check-label" for="flexRadioDefault38">
+                                            Hijab
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="lks-4">
+                                    <div class="lks-title1">Harga</div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault8"
+                                            id="flexRadioDefault39" checked>
+                                        <label class="form-check-label" for="flexRadioDefault39">
+                                            < 10 Juta </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault8"
+                                            id="flexRadioDefault40">
+                                        <label class="form-check-label" for="flexRadioDefault40">
+                                            10 Juta - 20 Juta
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault8"
+                                            id="flexRadioDefault40">
+                                        <label class="form-check-label" for="flexRadioDefault40">
+                                            20 Juta - 30 Juta
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault8"
+                                            id="flexRadioDefault41">
+                                        <label class="form-check-label" for="flexRadioDefault41">
+                                            30 Juta - 40 Juta
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault8"
+                                            id="flexRadioDefault42">
+                                        <label class="form-check-label" for="flexRadioDefault42">
+                                            40 Juta - 50 Juta
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault8"
+                                            id="flexRadioDefault43">
+                                        <label class="form-check-label" for="flexRadioDefault43">
+                                            > 50 Juta
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9 col-md-8">
+                <div class="d-flex">
+                    <div class="lks-cardstart mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p1.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 500.000</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Baru</div>
+                        <div class="judul">kaos hitam</div>
+                        <div class="loc">Duren Sawit, Jakarta Timur</div>
+                    </div>
+                    <div class="lks-cardstart mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p2.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 120.000</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Bekas</div>
+                        <div class="judul">kaos biru</div>
+                        <div class="loc">Cilandak, Jakarta Selatan</div>
+                    </div>
+                    <div class="lks-cardstart lks-cardstart-hide mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p3.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 225.000</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Bekas</div>
+                        <div class="judul">kaos abu-abu</div>
+                        <div class="loc">Cilandak, Jakarta Selatan</div>
+                    </div>
+                </div>
+                <div class="d-flex mt-3">
+                    <div class="lks-cardstart mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p4.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 2.000.000</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Baru</div>
+                        <div class="judul">Nike orange</div>
+                        <div class="loc">Kebayoran Lama, Jakarta Selatan</div>
+                    </div>
+                    <div class="lks-cardstart mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p5.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 3.245.000</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Baru</div>
+                        <div class="judul">TOMKINS luce green</div>
+                        <div class="loc">Daan Mogot, Jakarta Barat</div>
+                    </div>
+                    <div class="lks-cardstart lks-cardstart-hide mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p6.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 500.000.</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Bekas</div>
+                        <div class="judul">Aerostreet riku green</div>
+                        <div class="loc">Pancoran, Jakarta Selatan</div>
+                    </div>
+                </div>
+                <div class="d-flex mt-3">
+                    <div class="lks-cardstart mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p7.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 2.000.000</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Baru</div>
+                        <div class="judul">Casio Edifice S108D-2BVUDF</div>
+                        <div class="loc">Pasar Minggu, Jakarta Selatan</div>
+                    </div>
+                    <div class="lks-cardstart mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p8.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 700.000.</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Baru</div>
+                        <div class="judul">Seiko prospex</div>
+                        <div class="loc">Penjaringan, Jakarta Utara</div>
+                    </div>
+                    <div class="lks-cardstart lks-cardstart-hide mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p9.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 600.000.</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Bekas</div>
+                        <div class="judul">Tissot PRX 35 MM Powermatic</div>
+                        <div class="loc">Kemang, Jakarta Selatan</div>
+                    </div>
+                </div>
+                <div class="d-flex mt-3">
+                    <div class="lks-cardstart mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p10.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 1.200.000.</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Bekas</div>
+                        <div class="judul">Tas Ransel Converse</div>
+                        <div class="loc">Cilandak, Jakarta Selatan</div>
+                    </div>
+                    <div class="lks-cardstart mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p11.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 330.000.</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Bekas</div>
+                        <div class="judul">Tas Ransel Herschel</div>
+                        <div class="loc">Cilandak, Jakarta Selatan</div>
+                    </div>
+                    <div class="lks-cardstart lks-cardstart-hide mx-auto">
+                        <a href="../detail-product/index.html">
+                            <img src="../assets/list-kategori/fashion/p12.png" alt="" class="img-fluid lks-card-i">
+                        </a>
+                        <div class="mt-4 d-flex justify-space-between ms-sm-3 me-sm-3">
+                            <div class="harga">Rp. 2.200.000</div>
+                            <div class="card-icon my-auto">
+                                <a href="#">
+                                    <img src="../assets/icon-love.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ket">Baru</div>
+                        <div class="judul">Tas gunung Eiger</div>
+                        <div class="loc">Makasar, Jakarta Timur</div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-evenly mt-4">
+                    <button class="btn-loadmore" type="submit">Lihat Semua</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- List Kategori End -->
+
+    <!-- Footer Start -->
+    <div class="container-xxl mt-sm-5 mt-4">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 border-top footer-start">
+            <div class="col-md-3 mb-3 footcol1">
+                <a href="index.html" class="d-flex align-items-center mb-3 text-decoration-none">
+                    <img src="../assets/logo.svg" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top">Bekas.id
+                </a>
+                <div class="text-cpr mt-4">Copyright © 2024 Virtual Intership 4.</div>
+                <div class="text-cpr">All rights reserved</div>
+                <div class="footer-sosmed mt-4">
+                    <a href="#"><img src="../assets/icon-ig.svg" alt="" class="icon-sosmed me-2"></a>
+                    <a href="#"><img src="../assets/icon-dribble.svg" alt="" class="icon-sosmed me-2"></a>
+                    <a href="#"><img src="../assets/icon-twitter.svg" alt="" class="icon-sosmed me-2"></a>
+                    <a href="#"><img src="../assets/icon-yt.svg" alt="" class="icon-sosmed"></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <h5 class="footer-title">Kategori</h5>
+                <ul class="nav flex-column mt-3">
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Mobil</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Motor</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Elektronik</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Properti</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <h5 class="footer-title">Populer</h5>
+                <ul class="nav flex-column mt-3">
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Mobil</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Motor</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Elektronik</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Properti</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <h5 class="footer-title">Stay up to date</h5>
+                <form class="footer-input d-flex mt-4">
+                    <input class="input-email" type="email" placeholder="Your email address" aria-label="Email">
+                    <button class="btn-send" type="submit"><img src="../assets/icon-send.svg" alt=""></button>
+                </form>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Js Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

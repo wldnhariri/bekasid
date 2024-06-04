@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Logo Title Bar -->
+    <link rel="icon" href="../assets/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Sign Start -->
+    <div class="sign-start mt-5 mb-5 mx-auto">
+        <div class="row">
+            <div class="col-12 sign-col">
+                <img src="../assets/login/pic-login.svg" class="sign-login" alt="">
+                <img src="../assets/login/pic-loginmb.svg" class="sign-hide" alt="">
+                <div class="form-sign mx-auto my-auto">
+                    <div class="sign-title text-center">Buat Akun</div>
+                    <div class="sign-name">Nama</div>
+                    <div class="d-flex">
+                        <input type="text" class="form-control" placeholder="Nama" aria-label="Your Name"
+                        aria-describedby="basic-addon1">
+                    </div>
+                    <div class="sign-email">Email</div>
+                    <div class="d-flex">
+                        <input type="email" class="form-control" placeholder="Email" aria-label="Your Email"
+                        aria-describedby="basic-addon1">
+                    </div>
+                    <div class="sign-username">Username</div>
+                    <div class="d-flex">
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    </div>                    
+                    <div class="sign-password">Password</div>
+                    <div class="sign-inpass d-flex">
+                        <input type="password" class="form-control" placeholder="Password" id="password" aria-label="Password"
+                        aria-describedby="basic-addon1">
+                        <img src="../assets/login/icon-closepass.svg" alt="" class="icon-pass" id="eyeicon">
+                    </div>
+                    <div class="sign-confirm">Konfirmasi Password</div>
+                    <div class="sign-conpass d-flex">
+                        <input type="password" class="form-control" placeholder="Konfirmasi Password" id="confirmpassword" aria-label="Konfirmasi Password"
+                        aria-describedby="basic-addon1">
+                        <img src="../assets/login/icon-closepass.svg" alt="" class="icon-pass" id="confirmeyeicon">
+                    </div>
+                    <div class="sign-btn text-center">
+                        <a href="#"><button>Buat Akun</button></a>
+                    </div>                    
+                    <div class="sign-already text-center">Sudah mempunyai akun? <a href="../login/index.html">Masuk</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sign End -->
+
+
+    <!-- Js Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Js -->
+    <script src="../js/iconpass.js"></script>
+</body>
+
+</html>

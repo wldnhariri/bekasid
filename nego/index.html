@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Logo Title Bar -->
+    <link rel="icon" href="../assets/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="nav-hide navbar-brand" href="../index.html">
+                <img src="../assets/logo.svg" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+                Bekas.id</a>
+            <form class="nav-input-hide mx-auto mt-2 mb-2">
+                <input class="input-search me-2" type="search" placeholder="Temukan" aria-label="Temukan">
+                <button class="button-search" type="submit"><img src="../assets/icon-search.svg"
+                        alt="search-icon"></button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="nav-input mx-auto mt-2 mb-2">
+                    <input class="input-search me-2" type="search" placeholder="Temukan" aria-label="Temukan">
+                    <button class="button-search" type="submit"><img src="../assets/icon-search.svg"
+                            alt="search-icon"></button>
+                </form>
+
+                <div class="button-wrapper mx-auto">
+                    <a href="../wishlist/index.html" class="btn-wish mx-auto">
+                        <button class="button-wishlist me-md-4"><img src="../assets/icon-wishlist.svg" alt=""></button>
+                    </a>
+                </div>
+
+                <div class="button-wrapper2 d-flex">
+                    <a href="../login/index.html">
+                        <button class="button-login me-md-2 me-2" type="submit">Masuk</button>
+                    </a>
+                    <a href="../cara-jual/index.html">
+                        <button class="button-jual" type="submit">Jual</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Nego Start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-5 left-wrapper">
+                <div class="nego-bar d-flex align-items-center px-3 py-3">
+                    <div>Kotak Masuk</div>
+                    <img src="../assets/nego/icon-search.svg" alt="">
+                </div>
+                <div class="btn-bar">
+                    <button class="btn btn-left" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <div class="nego-pesan d-flex align-items-center">
+                            <img src="../assets/nego/gambar-nego.svg" alt="" class="gambar-nego">
+                            <div class="nego-isipesan">
+                                <div class="d-flex align-items-center">
+                                    <div class="name">Nama penjual</div>
+                                    <div class="time">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang">Nama barang</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="../assets/nego/bx_check-double.svg" alt="" class="checkbox">
+                                    <div class="pesan">Isi pesan</div>
+                                </div>
+                            </div>
+                            <img src="../assets/nego/titik-3.svg" alt="" class="titik3">
+                        </div>
+                    </button>
+                </div>
+
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <div id="offcanvasRightLabel">
+                            <div class="nego-kontak d-flex align-items-center">
+                                <img src="../assets/nego/gambar-nego.svg" alt="" class="gambar-nego">
+                                <div class="name">Nama penjual</div>
+                                <img src="../assets/nego/titik-3.svg" alt="" class="titik3">
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="date text-center mt-2">Kamis, 16 Mei</div>
+                        <div class="frame-chat d-flex align-items-center">
+                            <div class="text">isi chat penjual</div>
+                            <div class="time">00:00</div>
+                        </div>
+                        <div class="frame-chat2">
+                            <div class="text">isi chat pembeli</div>
+                            <div class="time">00:00</div>
+                        </div>
+
+                        <div class="frame-pertanyaan">
+                            <div class="frame-question py-2 d-flex justify-content-center align-items-center">
+                                <img src="../assets/nego/icon-question.svg" alt="">
+                                <div>Pertanyaan</div>
+                            </div>
+                            <div class="frame-qinstan d-flex align-items-center">
+                                <button type="submit" class="btn">Mari bertemu</button>
+                                <button type="submit" class="btn">Unit masih ada?</button>
+                                <button type="submit" class="btn">Lokasi dimana?</button>
+                            </div>
+                            <div class="frame-input d-flex align-items-center">
+                                <input type="text" class="form-control" placeholder="Tuliskan pesan anda"
+                                    aria-label="Message" aria-describedby="basic-addon1">
+                                <button type="submit">Kirim</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-md-7 right-wrapper text-center align-content-center">
+                <p>Pilih chat untuk melihat percakapan</p>
+            </div>
+        </div>
+    </div>
+    <!-- Nego End -->
+
+
+    <!-- Js Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
