@@ -1,0 +1,1009 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/******** Web Start ********/
+/******** Web Start ********/
+/******** Web Start ********/
+
+/* Navbar Start */
+.navbar a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.nav-input-hide {
+    display: none;
+}
+
+.nav-input {
+    display: flex;
+}
+
+.input-search {
+    width: 575px;
+    height: 36px;
+    padding: 7px 25px;
+    border-radius: 10px;
+    background: #F1F7FF;
+    color: #747474;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+.button-search {
+    width: 51px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.button-search:hover {
+    background-color: #2196F3;
+}
+
+.button-search img {
+    width: 20px;
+    margin-top: -3px;
+}
+
+.button-wrapper .button-wishlist {
+    border: none;
+    background-color: #F8F9FA;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper .button-wishlist:hover {
+    opacity: 0.8;
+}
+
+.button-wrapper img {
+    width: 38px;
+    height: 38px;
+}
+
+.button-wrapper2 .button-login {
+    width: 78px;
+    height: 38px;
+    border-radius: 10px;
+    background: #DDEBFF;
+    color: #007AFF;
+    border: 2px solid #007AFF;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper2 .button-login:hover {
+    background-color: #F1F7FF;
+}
+
+.button-wrapper2 .button-jual {
+    width: 67px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper2 .button-jual:hover {
+    background-color: #0062CC;
+}
+
+/* Navbar End */
+
+
+/* DETAIL-PRODUCT */
+
+/* Breadcrumb Start */
+.breadcrumb-tree {
+    display: inline-block;
+}
+
+.breadcrumb-tree li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.breadcrumb-tree li+li {
+    margin-left: 10px;
+}
+
+.breadcrumb-tree li+li:before {
+    content: '/';
+    display: inline-block;
+    color: #848484;
+    margin-right: 10px;
+}
+
+.breadcrumb-tree li a {
+    color: #848484;
+    text-decoration: none;
+}
+
+.breadcrumb-tree li a:hover {
+    color: #007AFF;
+}
+
+.breadcrumb-tree .aktif {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Breadcrumb End */
+
+
+/* Info Produk Start */
+.ip-title {
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.ip-harga {
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.produk-section2 {
+    border-top: 2px solid #C1C1C1;
+    border-bottom: 2px solid #C1C1C1;
+}
+
+.ip-lokasi {
+    position: relative;
+    width: 100%;
+    gap: 27px;
+}
+
+.icon-lokasi {
+    position: relative;
+    width: 32.89px;
+    height: 24.85px;
+}
+
+.ip-alamat {
+    position: relative;
+    font-size: 18px;
+    color: #6a747b;
+    line-height: 140%;
+}
+
+.ip-kalender {
+    position: relative;
+    width: 100%;
+    gap: 27px;
+}
+
+.icon-kalender {
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.ip-tanggal {
+    position: relative;
+    font-size: 18px;
+    color: #6a747b;
+    line-height: 140%;
+}
+
+.ip-wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.ip-wrapper button {
+    border: none;
+}
+
+.btn-nego {
+    height: 45px;
+    padding: 4px 21px;
+    border-radius: 10px;
+    background: #007AFF;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    transition: background-color 0.2s ease;
+}
+
+.btn-nego:hover {
+    background-color: #2196F3;
+}
+
+.btn-wishlist {
+    width: 55px;
+    height: 45px;
+    padding: 4px 21px;
+    border-radius: 10px;
+    background: #007AFF;
+    transition: background-color 0.2s ease;
+}
+
+.btn-wishlist:hover {
+    background-color: #2196F3;
+}
+
+.btn-wishlist img {
+    margin-left: -9px;
+    width: 32px;
+    height: 32px;
+
+}
+
+/* Info Produk End */
+
+
+/* Detail Info Start */
+.di-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.di-section {
+    border-bottom: 2px solid #C1C1C1;
+}
+
+.di-detail {
+    display: flex;
+}
+
+.di-detail .text-center {
+    margin: 0 auto;
+}
+
+.di-detail .di-judul {
+    color: #000;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.di-detail .di-ket {
+    color: #707070;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 14px;
+}
+
+.di-detailmb {
+    display: none;
+}
+
+/* Detail Info End */
+
+
+/* Deskripsi Start */
+.desk-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.deskripsi {
+    color: #707070;
+    line-height: 120%;
+}
+
+/* Deskripsi End */
+
+
+/* User Profile Start */
+.up-start {
+    background: #EEE;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.16);
+    padding: 16px 115px;
+}
+
+.up-profile {
+    gap: 32px;
+}
+
+.up-picprofile {
+    width: 81px;
+    height: 81px;
+}
+
+.up-name {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.up-date {
+    color: #6A747B;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.up-lp a {
+    text-decoration: none;
+    color: #007AFF;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/* User Profile End */
+
+
+/* Footer Start */
+.footer-start {
+    background: #212121;
+    padding: 64px 116px;
+}
+
+.footcol1 a {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.text-cpr {
+    color: #F5F7FA;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.foot-nav {
+    color: #F5F7FA;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-input {
+    width: 275px;
+    padding: 9px 12px;
+    border-radius: var(--Spacing-1, 8px);
+    background: #4D4D4D;
+}
+
+.footer-input input {
+    border: none;
+    width: 220px;
+    margin-right: 5px;
+    background: #4D4D4D;
+
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-input button {
+    border: none;
+    background: #4D4D4D;
+}
+
+/* Footer End */
+
+/******** Web End ********/
+/******** Web End ********/
+/******** Web End ********/
+
+
+
+/******** Tab Start ********/
+/******** Tab Start ********/
+/******** Tab Start ********/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 65%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        height: 34px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 10px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* Detail Info Start */
+    .di-detail {
+        display: none;
+    }
+
+    .di-detailmb {
+        display: block;
+    }
+
+    .di-detailmb .dmb {
+        margin-top: 11px;
+    }
+
+    .di-detailmb .di-judul {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-right: 10px;
+    }
+
+    .di-detailmb .di-ket {
+        color: #707070;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+    }
+
+    /* Detail Info End */
+
+
+    /* User Profile Start */
+    .up-start {
+        padding: 16px 48px;
+    }
+
+    .up-date {
+        font-size: 18px;
+    }
+
+    .up-lp a {
+        font-size: 18px;
+    }
+
+    /* User Profile End */
+
+
+    /* FOOTER */
+    /* Footer Start */
+    .footer-start {
+        padding: 64px 132px 64px 16px;
+    }
+
+    /* Footer End */
+}
+
+/******** Tab End ********/
+/******** Tab End ********/
+/******** Tab End ********/
+
+
+
+/******** Mobile Start ********/
+/******** Mobile Start ********/
+/******** Mobile Start ********/
+
+@media screen and (min-width: 381px) and (max-width: 450px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 45%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        width: 30%;
+        height: 34px;
+    }
+
+    .button-search img {
+        width: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 5px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* DETAIL PRODUK */
+
+    /* Breadcrumb Start */
+    .breadcrumb-tree {
+        display: none;
+    }
+
+    /* Breadcrumb End */
+
+
+    /* Info Produk Start */
+    .ip-title {
+        font-size: 18px;
+    }
+
+    .ip-harga {
+        font-size: 18px;
+    }
+
+    .ip-lokasi {
+        gap: 12px;
+    }
+
+    .icon-lokasi {
+        width: 22.93px;
+        height: 17.337px;
+    }
+
+    .ip-alamat {
+        font-size: 12px;
+    }
+
+    .ip-kalender {
+        gap: 12px;
+    }
+
+    .icon-kalender {
+        width: 22px;
+        height: 22px;
+    }
+
+    .ip-tanggal {
+        font-size: 12px;
+    }
+
+    .ip-wrapper {
+        display: flex;
+        justify-content: start;
+    }
+
+    .btn-nego {
+        width: 77.627px;
+        height: 24.291px;
+        padding: 2.112px 11.09px;
+        border-radius: 4.225px;
+
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .btn-wishlist {
+        width: 32.741px;
+        height: 24.291px;
+        padding: 2.112px 11.09px;
+        border-radius: 4.225px;
+        margin-top: 1px;
+    }
+
+    .btn-wishlist img {
+        margin-top: -7px;
+        margin-left: -4px;
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Info Produk End */
+
+
+    /* Detail Info Start */
+    .di-title {
+        font-size: 14px;
+    }
+
+    .di-detail {
+        display: none;
+    }
+
+    .di-detailmb {
+        display: block;
+    }
+
+    .di-detailmb .dmb {
+        margin-top: 11px;
+    }
+
+    .di-detailmb .di-judul {
+        color: #000;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-right: 10px;
+    }
+
+    .di-detailmb .di-ket {
+        color: #707070;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 120%;
+    }
+
+    /* Detail Info End */
+
+
+    /* Deskripsi Start */
+    .desk-title {
+        font-size: 14px;
+    }
+
+    .deskripsi {
+        font-size: 12px;
+    }
+
+    /* Deskripsi End */
+
+
+    /* User Profile Start */
+    .up-start {
+        padding: 16px 0px;
+    }
+
+    .up-profile {
+        gap: 16px;
+    }
+
+    .up-picprofile {
+        width: 71px;
+        height: 71px;
+    }
+
+    .up-name {
+        font-size: 14px;
+    }
+
+    .up-date {
+        font-size: 12px;
+    }
+
+    .up-lp a {
+        font-size: 12px;
+    }
+
+    /* User Profile End */
+
+
+    /* Footer Start */
+    .footer-start {
+        padding: 32px 16px;
+    }
+
+    /* Footer End */
+}
+
+/******** Mobile End ********/
+/******** Mobile End ********/
+/******** Mobile End ********/
+
+
+
+/******** Mobile 360 Start ********/
+/******** Mobile 360 Start ********/
+/******** Mobile 360 Start ********/
+
+@media screen and (min-width: 350px) and (max-width: 380px) {
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 43%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        height: 34px;
+    }
+
+    .button-search img {
+        width: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 10px;
+    }
+
+    .button-wrapper .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* Breadcrumb Start */
+    .breadcrumb-tree {
+        display: none;
+    }
+
+    /* Breadcrumb End */
+
+
+    /* Info Produk Start */
+    .ip-title {
+        font-size: 18px;
+    }
+
+    .ip-harga {
+        font-size: 18px;
+    }
+
+    .ip-lokasi {
+        gap: 12px;
+    }
+
+    .icon-lokasi {
+        width: 22.93px;
+        height: 17.337px;
+    }
+
+    .ip-alamat {
+        font-size: 12px;
+    }
+
+    .ip-kalender {
+        gap: 12px;
+    }
+
+    .icon-kalender {
+        width: 22px;
+        height: 22px;
+    }
+
+    .ip-tanggal {
+        font-size: 12px;
+    }
+
+    .ip-wrapper {
+        display: flex;
+        justify-content: start;
+    }
+
+    .btn-nego {
+        width: 77.627px;
+        height: 24.291px;
+        padding: 2.112px 11.09px;
+        border-radius: 4.225px;
+
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .btn-wishlist {
+        width: 32.741px;
+        height: 24.291px;
+        padding: 2.112px 11.09px;
+        border-radius: 4.225px;
+        margin-top: 1px;
+    }
+
+    .btn-wishlist img {
+        margin-top: -7px;
+        margin-left: -4px;
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Info Produk End */
+
+
+    /* Detail Info Start */
+    .di-title {
+        font-size: 14px;
+    }
+
+    .di-detail {
+        display: none;
+    }
+
+    .di-detailmb {
+        display: block;
+    }
+
+    .di-detailmb .dmb {
+        margin-top: 11px;
+    }
+
+    .di-detailmb .di-judul {
+        color: #000;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-right: 10px;
+    }
+
+    .di-detailmb .di-ket {
+        color: #707070;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 120%;
+    }
+
+    /* Detail Info End */
+
+
+    /* Deskripsi Start */
+    .desk-title {
+        font-size: 14px;
+    }
+
+    .deskripsi {
+        font-size: 12px;
+    }
+
+    /* Deskripsi End */
+
+
+    /* User Profile Start */
+    .up-start {
+        padding: 16px 0px;
+    }
+
+    .up-profile {
+        gap: 16px;
+    }
+
+    .up-picprofile {
+        width: 71px;
+        height: 71px;
+    }
+
+    .up-name {
+        font-size: 14px;
+    }
+
+    .up-date {
+        font-size: 12px;
+    }
+
+    .up-lp a {
+        font-size: 12px;
+    }
+
+    /* User Profile End */
+
+
+    /* Footer Start */
+    .footer-start {
+        padding: 32px 16px;
+    }
+
+    /* Footer End */
+}
+
+/******** Mobile 360 End ********/
+/******** Mobile 360 End ********/
+/******** Mobile 360 End ********/
