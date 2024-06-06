@@ -274,7 +274,8 @@
     width: 264px;
     height: 325px;
     border-radius: 5px;
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+    border: 2px solid #D9D9D9;
+    background: #FFF;
 }
 
 .card-i {
@@ -334,6 +335,42 @@ div .loc {
 
 .btn-loadmore:hover {
     background: #0062CC;
+}
+
+.pagination {
+    gap: 16px;
+}
+
+.page-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: none;
+    align-content: center;
+    text-align: center;
+}
+
+.page-item.active {
+    background-color: #007AFF;
+}
+
+.page-item:hover {
+    background-color: #007AFF;
+}
+
+.page-a {
+    text-decoration: none;
+    color: #007AFF;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.page-a.active {
+    color: #FFF;
+}
+
+.page-a:hover {
+    color: #FFF;
 }
 
 /* Rekomendasi Card End */
@@ -552,8 +589,8 @@ div .loc {
         height: 315px;
         background-color: #ffffff;
         border-radius: 5px;
-        border: 0.5px solid;
-        border-color: #959595;
+        border: 2px solid #D9D9D9;
+        background: #FFF;
     }
 
     .card-i {
@@ -796,8 +833,8 @@ div .loc {
         height: 259px;
         background-color: #ffffff;
         border-radius: 5px;
-        border: 0.5px solid;
-        border-color: #959595;
+        border: 2px solid #D9D9D9;
+        background: #FFF;
     }
 
     .card-start-hidem {
@@ -850,6 +887,37 @@ div .loc {
         font-weight: 600;
     }
 
+    .pagination {
+        gap: 8px;
+    }
+
+    .page-item {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-item.active {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-item:hover {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-a {
+        font-size: 14px;
+    }
+
+    .page-a.active {
+        font-size: 14px;
+    }
+
+    .page-a:hover {
+        font-size: 14px;
+    }
+
     /* Rekomendasi Card End */
 
 
@@ -872,6 +940,7 @@ div .loc {
 /******** Mobile 360 Start ********/
 
 @media screen and (min-width: 350px) and (max-width: 380px) {
+
     /* Navbar Start */
     .navbar a {
         font-size: 18px;
@@ -1063,8 +1132,8 @@ div .loc {
         height: 240px;
         background-color: #ffffff;
         border-radius: 5px;
-        border: 0.5px solid;
-        border-color: #959595;
+        border: 2px solid #D9D9D9;
+        background: #FFF;
     }
 
     .card-start-hidem {
@@ -1116,6 +1185,37 @@ div .loc {
 
         font-size: 14px;
         font-weight: 600;
+    }
+
+    .pagination {
+        gap: 8px;
+    }
+
+    .page-item {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-item.active {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-item:hover {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-a {
+        font-size: 14px;
+    }
+
+    .page-a.active {
+        font-size: 14px;
+    }
+
+    .page-a:hover {
+        font-size: 14px;
     }
 
     /* Rekomendasi Card End */
