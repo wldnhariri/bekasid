@@ -1,0 +1,1302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/******** Web Start ********/
+/******** Web Start ********/
+/******** Web Start ********/
+
+/* Profile Start */
+.p-section {
+    border-bottom: 1px solid #747474;
+}
+
+.p-left {
+    display: block;
+}
+
+.p-right {
+    display: block;
+}
+
+.p-right input {
+    display: none;
+}
+
+.p-leftmb {
+    display: none;
+}
+
+.p-rightmb {
+    display: none;
+}
+
+.p-name {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.p-desc {
+    color: #000;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.p-out {
+    border: none;
+    background-color: #fff;
+    color: #007AFF;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: -3px;
+    margin-top: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.p-out:hover {
+    color: #2196F3;
+}
+
+.p-profile {
+    width: 244px;
+    height: 244px;
+    border-radius: 50%;
+}
+
+.p-right .p-edit {
+    width: 40px;
+    height: 40px;
+    margin-top: -150%;
+    margin-left: 150%;
+}
+
+/* Profile End */
+
+
+/* Profile Tab Start */
+.tab-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tab-nav li {
+    float: left;
+    margin-right: 80px;
+}
+
+.tab-nav li a {
+    display: block;
+    margin-top: 35px;
+    padding: 10px 15px;
+    text-decoration: none;
+
+    color: #007AFF;
+    font-weight: 500;
+    line-height: 120%;
+    transition: background-color 0.2s ease;
+}
+
+.tab-nav li a:hover {
+    color: #2196F3;
+}
+
+.tab-nav li.active a {
+    border-bottom: 2px solid #007AFF;
+    font-weight: 600;
+}
+
+.tab-content {
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.tab-contentmb {
+    display: none;
+}
+
+.tab-contentmb2 {
+    display: none;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.pt-infom {
+    color: #007AFF;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.pt-title {
+    color: #007AFF;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.pt-detail {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.pt-btnedit {
+    width: 143px;
+    padding: 10px 16px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #007AFF;
+    background-color: #fff;
+
+    color: #007AFF;
+    font-weight: 500;
+    line-height: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.pt-btnedit:hover,
+.pt-btntambahalamat:hover {
+    background-color: #F1F7FF;
+}
+
+.pt-btntambahalamat {
+    width: 250px;
+    padding: 10px 16px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #007AFF;
+    background-color: #fff;
+
+    color: #007AFF;
+    font-weight: 500;
+    line-height: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.pt-tab2 {
+    border-radius: 18px;
+    background: #F1F7FF;
+}
+
+.pt-alamat {
+    color: #6B6B6B;
+    font-weight: 500;
+    line-height: 120%;
+    margin-right: 23px;
+}
+
+.pt-utama {
+    padding: 3px 13px;
+    border-radius: 5px;
+    background: #007AFF;
+
+    color: #FFF;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.pt-name {
+    color: #000;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 15px;
+}
+
+.pt-no {
+    color: #000;
+    line-height: 120%;
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+
+.pt-btn {
+    border: none;
+    background-color: #F1F7FF;
+    color: #007AFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 32px;
+    margin-right: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.pt-btn:hover {
+    color: #2196F3;
+}
+
+.pt-span {
+    color: #C7C7C7;
+    margin-top: 32px;
+    margin-right: 20px;
+}
+
+/* Profile Tab End */
+
+
+/* Ubah Alamat Start */
+.ua-title {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.ua-wrap {
+    display: flex;
+    padding: 12px 32px 12px 32px;
+    gap: 24px;
+}
+
+.ua-wrap .select-title {
+    width: 15%;
+    color: #000;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.ua-wrap .form-select {
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid #5E5C5C;
+}
+
+.d-flex .btn-simpanperubahan {
+    border: none;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background: #007AFF;
+
+    color: #FFF;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-top: 32px;
+    transition: background-color 0.2s ease;
+}
+
+.d-flex .btn-simpanperubahan:hover {
+    background: #0062CC;
+}
+
+/* Ubah Alamat End */
+
+
+/* Profile Seller Start */
+.ps-left .ps-wrap {
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #F1F7FF;
+    margin-top: 23px;
+}
+
+.ps-wrap .ps-title {
+    color: #007AFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.ps-wrap .ps-subtitle {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 22px;
+}
+
+.ps-wrap .ps-ket {
+    color: #000;
+    line-height: 120%;
+    margin-top: 5px;
+}
+
+.ps-leftm {
+    display: none;
+}
+
+.lks-cardstart {
+    position: relative;
+    width: 264px;
+    height: 335px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+}
+
+.lks-card-i {
+    position: relative;
+    width: 231px;
+    height: 181px;
+    top: 15px;
+    left: 15px;
+    object-fit: cover;
+}
+
+.lks-cardstart .harga {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.lks-cardstart .ket {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.lks-cardstart .judul {
+    color: #747474;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.lks-cardstart .loc {
+    color: #747474;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+/* Profile Seller End */
+
+
+/* Profile User Start */
+.pu-wrap .p-profile5 {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+}
+
+.pu-wrap input {
+    display: none;
+}
+
+.pu-wrap .p-edit {
+    width: 30px;
+    height: 30px;
+    margin-top: 350%;
+    margin-left: -250%;
+}
+
+/* Profile User End */
+
+
+/* Edit Profil Start */
+.ep-wrap {
+    padding: 0px 0px 16px 0px;
+    border-bottom: 3px solid #D9D9D9;
+}
+
+.ep-wrap .p-profile7 {
+    width: 244px;
+    height: 244px;
+    border-radius: 50%;
+    margin-left: 48px;
+}
+
+.ep-wrap input {
+    display: none;
+}
+
+.ep-wrap .ep-edit {
+    width: 50px;
+    height: 50px;
+    margin-top: 350%;
+    margin-left: -250%;
+}
+
+.ep-wrap .ep-name {
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.ep-form .ep-title {
+    width: 11%;
+    padding: 0px 0px 8px 0px;
+    color: #007AFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 40px;
+    margin-bottom: 28px;
+    border-bottom: 2px solid #007AFF;
+}
+
+.ep-form label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.ep-form input {
+    padding: 8px 12px;
+    font-size: 14px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-bottom: 3px solid #C1C7CD;
+    background: var(--CoolGray-10, #F2F4F8);
+    margin-bottom: 16px;
+}
+
+/* Edit Profil End */
+
+
+/* Footer Start */
+.footer-start {
+    background: #212121;
+    padding: 64px 116px;
+}
+
+.footcol1 a {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.text-cpr {
+    color: #F5F7FA;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.foot-nav {
+    color: #F5F7FA;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-input {
+    width: 275px;
+    padding: 9px 12px;
+    border-radius: var(--Spacing-1, 8px);
+    background: #4D4D4D;
+}
+
+.footer-input input {
+    border: none;
+    width: 220px;
+    margin-right: 5px;
+    background: #4D4D4D;
+
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-input button {
+    border: none;
+    background: #4D4D4D;
+}
+
+/* Footer End */
+
+/******** Web End ********/
+/******** Web End ********/
+/******** Web End ********/
+
+
+
+/******** Tab Start ********/
+/******** Tab Start ********/
+/******** Tab Start ********/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Ubah Alamat Start */
+    .ua-wrap {
+        gap: 64px;
+    }
+
+    .ua-wrap .form-select {
+        width: 75%;
+    }
+
+    /* Ubah Alamat End */
+
+
+    /* Profile Seller Start */
+    .lks-cardstart-hide {
+        display: none;
+    }
+
+    .lks-cardstart {
+        width: 219px;
+        height: 305px;
+    }
+
+    .lks-card-i {
+        width: 196px;
+        height: 181px;
+        top: 12px;
+        left: 11px;
+    }
+
+    /* Profile Seller End */
+}
+
+/******** Tab End ********/
+/******** Tab End ********/
+/******** Tab End ********/
+
+
+
+/******** Mobile Start ********/
+/******** Mobile Start ********/
+/******** Mobile Start ********/
+
+@media screen and (min-width: 381px) and (max-width: 450px) {
+
+    /* PROFILE */
+
+    /* Profile Start */
+    .p-section {
+        border-bottom: 12px solid #F1F7FF;
+    }
+
+    .p-left {
+        display: none;
+    }
+
+    .p-right {
+        display: none;
+    }
+
+    .p-leftmb {
+        display: block;
+    }
+
+    .p-rightmb {
+        display: block;
+        margin-left: -6%;
+    }
+
+    .p-leftmb .p-profile2,
+    .p-leftmb .p-profile3,
+    .p-leftmb .p-profile4 {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+
+    .p-leftmb input {
+        display: none;
+    }
+
+    .p-leftmb .p-edit {
+        width: 20px;
+        height: 20px;
+        margin-top: -200%;
+        margin-left: 300%;
+    }
+
+    .p-rightmb .p-name {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .p-rightmb .p-email {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    .d-flex .p-editpr {
+        width: 112px;
+        height: 22px;
+        background-color: #fff;
+        border-radius: 4px;
+        border: 1px solid #007AFF;
+
+        color: #007AFF;
+        font-size: 12px;
+        transition: background-color 0.2s ease;
+    }
+
+    .d-flex .p-editpr:hover {
+        background-color: #F1F7FF;
+    }
+
+    /* Profile End */
+
+
+    /* Profile Tab Start */
+    .tab-nav {
+        display: none;
+    }
+
+    .tab-content {
+        display: none;
+    }
+
+    .tab-contentmb {
+        display: block;
+        border-bottom: 12px solid #F1F7FF;
+    }
+
+    .tab-contentmb2 {
+        display: block;
+    }
+
+    .tab-contentmb a {
+        text-decoration: none;
+    }
+
+    .tab-contentmb .pt-info {
+        color: #000;
+        font-weight: 500;
+        margin-left: 22px;
+    }
+
+    .tab-contentmb .pt-alamat {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    .tab-contentmb .pt-fav {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    .tab-contentmb2 .pt-logout {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    /* Profile Tab End */
+
+
+    /* Alamatm Start */
+    .pt-judulm {
+        color: #007AFF;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .pt-btntambahalamatm {
+        transition: background-color 0.2s ease;
+        padding: 8px 14px;
+        flex-shrink: 0;
+        border-radius: var(--Spacing-1, 8px);
+        border: 1px solid #007AFF;
+        background-color: #fff;
+
+        color: #007AFF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .pt-btntambahalamatm:hover {
+        background-color: #F1F7FF;
+    }
+
+    .pt-tab2m {
+        border-radius: 11px;
+        background: #F1F7FF;
+    }
+
+    .pt-alamatm {
+        font-size: 14px;
+        color: #6B6B6B;
+        font-weight: 500;
+        line-height: 120%;
+        margin-right: 23px;
+    }
+
+    .pt-utamam {
+        font-size: 14px;
+        padding: 3px 13px;
+        border-radius: 5px;
+        background: #007AFF;
+
+        color: #FFF;
+        font-weight: 600;
+        line-height: 120%;
+    }
+
+    .pt-namem {
+        font-size: 14px;
+        color: #000;
+        font-weight: 600;
+        line-height: 120%;
+        margin-top: 15px;
+    }
+
+    .pt-nom {
+        font-size: 14px;
+        color: #000;
+        line-height: 120%;
+        margin-top: 7px;
+        margin-bottom: 13px;
+    }
+
+    .pt-btnm {
+        border: none;
+        background-color: #F1F7FF;
+        color: #007AFF;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 120%;
+        margin-top: 32px;
+        margin-right: 20px;
+        transition: background-color 0.2s ease;
+    }
+
+    .pt-btnm:hover {
+        color: #2196F3;
+    }
+
+    .pt-spanm {
+        color: #C7C7C7;
+        margin-top: 32px;
+        margin-right: 20px;
+    }
+
+    /* Alamatm End */
+
+
+    /* Ubah Alamat Start */
+    .ua-title {
+        font-size: 20px;
+    }
+
+    .ua-wrap {
+        display: block;
+        padding: 8px 12px 8px 12px;
+        gap: 24px;
+    }
+
+    .ua-wrap .select-title {
+        width: 100%;
+        font-weight: 400;
+    }
+
+    .ua-wrap .form-select {
+        width: 100%;
+    }
+
+    .d-flex .btn-simpanperubahan {
+        padding: 12px 24px;
+
+        font-size: 14px;
+        margin-top: 24px;
+    }
+
+    /* Ubah Alamat End */
+
+
+    /* Profile Seller Start */
+    .ps-left {
+        display: none;
+    }
+
+    .ps-leftm {
+        display: block;
+    }
+
+    .ps-leftm .ps-title {
+        color: #000;
+        font-size: 24px;
+        line-height: 120%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .ps-leftm .ps-subtitle {
+        color: #000;
+        font-size: 14px;
+        line-height: 120%;
+        margin-bottom: 6px;
+    }
+
+    .ps-leftm .ps-ket {
+        color: #ADADAD;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+
+    .lks-cardstart-hide {
+        display: none;
+    }
+
+    .lks-cardstart {
+        width: 175px;
+        height: 265px;
+    }
+
+    .lks-card-i {
+        width: 152px;
+        height: 105px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .lks-cardstart .harga {
+        font-size: 16px;
+        margin-left: 13px;
+    }
+
+    .lks-cardstart .ket {
+        font-size: 14px;
+        margin-left: 13px;
+        margin-top: 6px;
+    }
+
+    .lks-cardstart .judul {
+        font-size: 12px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    .lks-cardstart .loc {
+        font-size: 11px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    .card-icon a img {
+        width: 15px;
+        height: 14px;
+        margin-right: 13px;
+        margin-top: -4px;
+    }
+
+    /* Profile Seller End */
+
+
+    /* Profile User Start */
+    .ps-leftm .p-profile6 {
+        width: 132px;
+        height: 132px;
+        border-radius: 50%;
+    }
+
+    .ps-leftm input {
+        display: none;
+    }
+
+    .ps-leftm .p-edit {
+        width: 30px;
+        height: 30px;
+        margin-top: 300%;
+        margin-left: -120%;
+    }
+
+    /* Profile User End */
+
+
+    /* Footer Start */
+    .footer-start {
+        padding: 32px 16px;
+    }
+
+    /* Footer End */
+}
+
+/******** Mobile End ********/
+/******** Mobile End ********/
+/******** Mobile End ********/
+
+
+
+/******** Mobile 360 Start ********/
+/******** Mobile 360 Start ********/
+/******** Mobile 360 Start ********/
+
+@media screen and (min-width: 350px) and (max-width: 380px) {
+
+    /* PROFILE */
+
+    /* Profile Start */
+    .p-section {
+        border-bottom: 12px solid #F1F7FF;
+    }
+
+    .p-left {
+        display: none;
+    }
+
+    .p-right {
+        display: none;
+    }
+
+    .p-leftmb {
+        display: block;
+    }
+
+    .p-rightmb {
+        display: block;
+        margin-left: -6%;
+    }
+
+    .p-leftmb .p-profile2,
+    .p-leftmb .p-profile3,
+    .p-leftmb .p-profile4 {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+
+    .p-leftmb input {
+        display: none;
+    }
+
+    .p-leftmb .p-edit {
+        width: 20px;
+        height: 20px;
+        margin-top: -200%;
+        margin-left: 300%;
+    }
+
+    .p-rightmb .p-name {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .p-rightmb .p-email {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    .d-flex .p-editpr {
+        width: 112px;
+        height: 22px;
+        background-color: #fff;
+        border-radius: 4px;
+        border: 1px solid #007AFF;
+
+        color: #007AFF;
+        font-size: 12px;
+        transition: background-color 0.2s ease;
+    }
+
+    .d-flex .p-editpr:hover {
+        background-color: #F1F7FF;
+    }
+
+    /* Profile End */
+
+
+    /* Profile Tab Start */
+    .tab-nav {
+        display: none;
+    }
+
+    .tab-content {
+        display: none;
+    }
+
+    .tab-contentmb {
+        display: block;
+        border-bottom: 12px solid #F1F7FF;
+    }
+
+    .tab-contentmb2 {
+        display: block;
+    }
+
+    .tab-contentmb a {
+        text-decoration: none;
+    }
+
+    .tab-contentmb .pt-info {
+        color: #000;
+        font-weight: 500;
+        margin-left: 22px;
+    }
+
+    .tab-contentmb .pt-alamat {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    .tab-contentmb .pt-fav {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    .tab-contentmb2 .pt-logout {
+        color: #000;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    /* Profile Tab End */
+
+
+    /* Alamatm Start */
+    .pt-judulm {
+        color: #007AFF;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .pt-btntambahalamatm {
+        transition: background-color 0.2s ease;
+        padding: 8px 14px;
+        flex-shrink: 0;
+        border-radius: var(--Spacing-1, 8px);
+        border: 1px solid #007AFF;
+        background-color: #fff;
+
+        color: #007AFF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .pt-btntambahalamatm:hover {
+        background-color: #F1F7FF;
+    }
+
+    .pt-tab2m {
+        border-radius: 11px;
+        background: #F1F7FF;
+    }
+
+    .pt-alamatm {
+        font-size: 14px;
+        color: #6B6B6B;
+        font-weight: 500;
+        line-height: 120%;
+        margin-right: 23px;
+    }
+
+    .pt-utamam {
+        font-size: 14px;
+        padding: 3px 13px;
+        border-radius: 5px;
+        background: #007AFF;
+
+        color: #FFF;
+        font-weight: 600;
+        line-height: 120%;
+    }
+
+    .pt-namem {
+        font-size: 14px;
+        color: #000;
+        font-weight: 600;
+        line-height: 120%;
+        margin-top: 15px;
+    }
+
+    .pt-nom {
+        font-size: 14px;
+        color: #000;
+        line-height: 120%;
+        margin-top: 7px;
+        margin-bottom: 13px;
+    }
+
+    .pt-btnm {
+        border: none;
+        background-color: #F1F7FF;
+        color: #007AFF;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 120%;
+        margin-top: 32px;
+        margin-right: 20px;
+        transition: background-color 0.2s ease;
+    }
+
+    .pt-btnm:hover {
+        color: #2196F3;
+    }
+
+    .pt-spanm {
+        color: #C7C7C7;
+        margin-top: 32px;
+        margin-right: 20px;
+    }
+
+    /* Alamatm End */
+
+
+    /* Ubah Alamat Start */
+    .ua-title {
+        font-size: 20px;
+    }
+
+    .ua-wrap {
+        display: block;
+        padding: 8px 12px 8px 12px;
+        gap: 24px;
+    }
+
+    .ua-wrap .select-title {
+        width: 100%;
+        font-weight: 400;
+    }
+
+    .ua-wrap .form-select {
+        width: 100%;
+    }
+
+    .d-flex .btn-simpanperubahan {
+        padding: 12px 24px;
+
+        font-size: 14px;
+        margin-top: 24px;
+    }
+
+    /* Ubah Alamat End */
+
+
+    /* Profile Seller Start */
+    .ps-left {
+        display: none;
+    }
+
+    .ps-leftm {
+        display: block;
+    }
+
+    .ps-leftm .ps-title {
+        color: #000;
+        font-size: 24px;
+        line-height: 120%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .ps-leftm .ps-subtitle {
+        color: #000;
+        font-size: 14px;
+        line-height: 120%;
+        margin-bottom: 6px;
+    }
+
+    .ps-leftm .ps-ket {
+        color: #ADADAD;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+
+    .lks-cardstart-hide {
+        display: none;
+    }
+
+    .lks-cardstart {
+        width: 160px;
+        height: 240px;
+    }
+
+    .lks-card-i {
+        width: 137px;
+        height: 105px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .lks-cardstart .harga {
+        font-size: 14px;
+        margin-left: 13px;
+    }
+
+    .lks-cardstart .ket {
+        font-size: 13px;
+        margin-left: 13px;
+        margin-top: 6px;
+    }
+
+    .lks-cardstart .judul {
+        font-size: 12px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    .lks-cardstart .loc {
+        font-size: 11px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    .card-icon a img {
+        width: 15px;
+        height: 14px;
+        margin-right: 13px;
+        margin-top: -4px;
+    }
+
+    /* Profile Seller End */
+
+
+    /* Profile User Start */
+    .ps-leftm .p-profile6 {
+        width: 132px;
+        height: 132px;
+        border-radius: 50%;
+    }
+
+    .ps-leftm input {
+        display: none;
+    }
+
+    .ps-leftm .p-edit {
+        width: 30px;
+        height: 30px;
+        margin-top: 300%;
+        margin-left: -120%;
+    }
+
+    /* Profile User End */
+
+
+    /* Footer Start */
+    .footer-start {
+        padding: 32px 16px;
+    }
+
+    /* Footer End */
+}
+
+/******** Mobile 360 End ********/
+/******** Mobile 360 End ********/
+/******** Mobile 360 End ********/
