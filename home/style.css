@@ -1,0 +1,1234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/******** Web Start ********/
+/******** Web Start ********/
+/******** Web Start ********/
+
+/* Navbar Start */
+.navbar a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.nav-input-hide {
+    display: none;
+}
+
+.nav-input {
+    display: flex;
+}
+
+.input-search {
+    width: 575px;
+    height: 36px;
+    padding: 7px 25px;
+    border-radius: 10px;
+    background: #F1F7FF;
+    color: #747474;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+.button-search {
+    width: 51px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.button-search:hover {
+    background-color: #2196F3;
+}
+
+.button-search img {
+    width: 20px;
+    margin-top: -3px;
+}
+
+.button-wrapper .button-wishlist {
+    border: none;
+    background-color: #F8F9FA;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper .button-wishlist:hover {
+    opacity: 0.8;
+}
+
+.button-wrapper img {
+    width: 38px;
+    height: 38px;
+}
+
+.button-wrapper2 .button-login {
+    width: 78px;
+    height: 38px;
+    border-radius: 10px;
+    background: #DDEBFF;
+    color: #007AFF;
+    border: 2px solid #007AFF;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper2 .button-login:hover {
+    background-color: #F1F7FF;
+}
+
+.button-wrapper2 .button-jual {
+    width: 67px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper2 .button-jual:hover {
+    background-color: #0062CC;
+}
+
+/* Navbar End */
+
+
+/* Hero Start */
+.hero-section {
+    position: relative;
+    height: 608px;
+}
+
+.hero-img {
+    position: absolute;
+    margin-left: -1%;
+}
+
+.hero-produk {
+    position: relative;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 600;
+    margin-top: 120px;
+    left: 144px;
+}
+
+.hero-text {
+    position: relative;
+    color: #FFF;
+    margin-top: 28px;
+    font-size: 18px;
+    left: 144px;
+}
+
+.btn-mj {
+    position: relative;
+    margin-top: 32px;
+    width: 193px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #007AFF;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    left: 144px;
+
+    transition: background-color 0.2s ease;
+}
+
+.btn-mj:hover {
+    background: #0062CC;
+}
+
+/* Hero End */
+
+
+/* Kategori2 Start */
+.kategori4 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #004897;
+    line-height: 120%;
+    margin-right: auto;
+}
+
+.kategori2-section {
+    position: relative;
+    height: 296px;
+}
+
+.kategori2-section .kat2-img {
+    z-index: 0;
+}
+
+.kategori2-section .kat2-title {
+    z-index: 2;
+    margin-top: -30%;
+    margin-left: 36px;
+
+    width: 334px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.kategori2-section .kat2-nawar {
+    margin-left: 36px;
+    margin-top: 15px;
+
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.kategori2-section .kat2-beli {
+    z-index: 2;
+    margin-left: 36px;
+    margin-top: 22px;
+
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid var(--Primary-60, #0F62FE);
+    background: var(--Primary-60, #0F62FE);
+    transition: background-color 0.2s ease;
+}
+
+.kategori2-section .kat2-beli:hover {
+    background: #0062CC;
+}
+
+.kat2-beli .btn-beli {
+    border: none;
+    background: none;
+    color: var(--Default-White, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.carousel .carousel-control-prev {
+    margin-left: -9%;
+}
+
+.carousel .carousel-control-prev img {
+    width: 35px;
+    height: 35px;
+}
+
+.carousel .carousel-control-next {
+    margin-right: -9%;
+}
+
+.carousel .carousel-control-next img {
+    width: 35px;
+    height: 35px;
+}
+
+/* Kategori2 End */
+
+
+/* Rekomendasi Card Start */
+.rekomen {
+    font-weight: 600;
+    font-size: 32px;
+    color: #004897;
+    line-height: 120%;
+    margin-right: auto;
+}
+
+.rekom-a {
+    text-decoration: none;
+}
+
+.rekomls-wrapper {
+    color: #004897;
+    font-size: 16px;
+}
+
+.rekomls-wrapper:hover {
+    color: #2196f3;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.card-start {
+    position: relative;
+    width: 264px;
+    height: 325px;
+    border-radius: 5px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+}
+
+.card-i {
+    position: relative;
+    width: 226px;
+    height: 181px;
+    top: 19px;
+    left: 20px;
+    object-fit: cover;
+}
+
+.card-start .harga {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+div .tahun {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: 23px;
+    margin-top: 12px;
+}
+
+div .judul {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+div .loc {
+    color: #747474;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+.btn-loadmore {
+    border: none;
+    width: 213px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #007AFF;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.btn-loadmore:hover {
+    background: #0062CC;
+}
+
+.pagination {
+    gap: 16px;
+}
+
+.page-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: none;
+    align-content: center;
+    text-align: center;
+}
+
+.page-item.active {
+    background-color: #007AFF;
+}
+
+.page-item:hover {
+    background-color: #007AFF;
+}
+
+.page-a {
+    text-decoration: none;
+    color: #007AFF;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.page-a.active {
+    color: #FFF;
+}
+
+.page-a:hover {
+    color: #FFF;
+}
+
+/* Rekomendasi Card End */
+
+
+/* Footer Start */
+.footer-start {
+    background: #212121;
+    padding: 64px 116px;
+}
+
+.footcol1 a {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.text-cpr {
+    color: #F5F7FA;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.foot-nav {
+    color: #F5F7FA;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-input {
+    width: 275px;
+    padding: 9px 12px;
+    border-radius: var(--Spacing-1, 8px);
+    background: #4D4D4D;
+}
+
+.footer-input input {
+    border: none;
+    width: 220px;
+    margin-right: 5px;
+    background: #4D4D4D;
+
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-input button {
+    border: none;
+    background: #4D4D4D;
+}
+
+/* Footer End */
+
+/******** Web End ********/
+/******** Web End ********/
+/******** Web End ********/
+
+
+
+/******** Tab Start ********/
+/******** Tab Start ********/
+/******** Tab Start ********/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 65%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        height: 34px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 10px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* Hero Start */
+    .hero-section {
+        height: 352px;
+    }
+
+    .hero-img {
+        position: absolute;
+        width: 100%;
+        margin-left: -12px;
+    }
+
+    .hero-produk {
+        margin-top: 50px;
+        left: 60px;
+    }
+
+    .hero-text {
+        margin-top: 16px;
+        left: 60px;
+    }
+
+    .btn-mj {
+        margin-top: 24px;
+        left: 60px;
+    }
+
+    /* Hero End */
+
+
+    /* Kategori2 Start */
+    .kategori2-section {
+        height: 193px;
+    }
+
+    .kategori2-section .kat2-img {
+        /* height: 185px; */
+        padding: 2px;
+    }
+
+    .kategori2-section .kat2-title {
+        margin-top: -42%;
+        margin-left: 16px;
+
+        width: 296px;
+        font-size: 20px;
+    }
+
+    .kategori2-section .kat2-nawar {
+        margin-left: 16px;
+        margin-top: 15px;
+
+        font-size: 16px;
+    }
+
+    .kategori2-section .kat2-beli {
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    .kat2-beli .btn-beli {
+        font-size: 16px;
+    }
+
+    .carousel .carousel-control-prev {
+        margin-left: -11%;
+    }
+
+    .carousel .carousel-control-next {
+        margin-right: -11%;
+    }
+
+    /* Kategori2 End */
+
+
+    /* Rekomendasi Card Start */
+    .card-start-hidet {
+        display: none;
+    }
+
+    .card-start {
+        position: relative;
+        width: 224px;
+        height: 315px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 2px solid #D9D9D9;
+        background: #FFF;
+    }
+
+    .card-i {
+        position: relative;
+        width: 201px;
+        top: 10px;
+        left: 10px;
+        object-fit: cover;
+    }
+
+    .card-start .harga {
+        font-size: 18px;
+        margin-left: -12px;
+    }
+
+    div .tahun {
+        margin-left: 12px;
+    }
+
+    div .judul {
+        margin-left: 12px;
+    }
+
+    div .loc {
+        margin-left: 12px;
+    }
+
+    /* Rekomendasi Card End */
+
+
+    /* FOOTER */
+    /* Footer Start */
+    .footer-start {
+        padding: 64px 132px 64px 16px;
+    }
+
+    /* Footer End */
+}
+
+/******** Tab End ********/
+/******** Tab End ********/
+/******** Tab End ********/
+
+
+
+/******** Mobile Start ********/
+/******** Mobile Start ********/
+/******** Mobile Start ********/
+
+@media screen and (min-width: 381px) and (max-width: 450px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 45%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        width: 30%;
+        height: 34px;
+    }
+
+    .button-search img {
+        width: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 5px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* Hero Start */
+    .hero-section {
+        height: 165px;
+    }
+
+    .hero-img {
+        position: absolute;
+        width: 100%;
+        margin-left: -3%;
+    }
+
+    .hero-produk {
+        font-size: 26px;
+        left: 20px;
+        margin-top: 15px;
+    }
+
+    .hero-text {
+        font-size: 10px;
+        left: 20px;
+        margin-top: -5px;
+    }
+
+    .btn-mj {
+        font-size: 10px;
+        width: 103px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        left: 20px;
+        margin-top: -5px;
+    }
+
+    /* Hero End */
+
+
+    /* Kategori2 Start */
+    .kategori4 {
+        color: #004897;
+        line-height: 120%;
+        font-size: 20px;
+    }
+
+    .kategori2-section {
+        width: 190px;
+        height: 175px;
+    }
+
+    .kategori2-section .kat2-img {
+        height: 175px;
+        padding: 2px;
+    }
+
+    .kategori2-section .kat2-title {
+        margin-top: -48%;
+        margin-left: 8px;
+
+        width: 166px;
+        font-size: 11px;
+    }
+
+    .kategori2-section .kat2-nawar {
+        margin-left: 8px;
+        margin-top: 4px;
+
+        font-size: 10px;
+    }
+
+    .kategori2-section .kat2-beli {
+        margin-left: 8px;
+        margin-top: 6px;
+        padding: 0px;
+        border-radius: 2.02px;
+        border: 0.808px solid var(--Primary-60, #0F62FE);
+        background: var(--Primary-60, #0F62FE);
+    }
+
+    .kat2-beli .btn-beli {
+        font-size: 10px;
+        margin-right: -6px;
+    }
+
+    .kat2-beli img {
+        margin-top: 3px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .carousel .carousel-control-prev {
+        margin-left: -8%;
+    }
+
+    .carousel .carousel-control-prev img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel .carousel-control-next {
+        margin-right: -8%;
+    }
+
+    .carousel .carousel-control-next img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Kategori2 End */
+
+
+    /* Rekomendasi Card Start */
+    .rekomen {
+        color: #004897;
+        line-height: 120%;
+        font-size: 20px;
+    }
+
+    .rekomls-wrapper {
+        color: #004897;
+        font-size: 13px;
+        line-height: 120%;
+    }
+
+    .card-start {
+        position: relative;
+        width: 181px;
+        height: 259px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 2px solid #D9D9D9;
+        background: #FFF;
+    }
+
+    .card-start-hidem {
+        display: none;
+    }
+
+    .card-i {
+        position: relative;
+        width: 158px;
+        top: 10px;
+        left: 10px;
+        object-fit: cover;
+    }
+
+    .card-start .harga {
+        font-size: 16px;
+        margin-left: 13px;
+    }
+
+    .card-icon a img {
+        width: 15px;
+        height: 14px;
+        margin-right: 13px;
+        margin-top: -4px;
+    }
+
+    div .tahun {
+        font-size: 14px;
+        margin-left: 13px;
+        margin-top: 6px;
+    }
+
+    div .judul {
+        font-size: 12px;
+        margin-left: 13px;
+    }
+
+    div .loc {
+        font-size: 11px;
+        margin-left: 13px;
+        width: 90%;
+    }
+
+    .btn-loadmore {
+        width: 171px;
+        padding: 10px;
+        border-radius: 5px;
+
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .pagination {
+        gap: 8px;
+    }
+
+    .page-item {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-item.active {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-item:hover {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-a {
+        font-size: 14px;
+    }
+
+    .page-a.active {
+        font-size: 14px;
+    }
+
+    .page-a:hover {
+        font-size: 14px;
+    }
+
+    /* Rekomendasi Card End */
+
+
+    /* Footer Start */
+    .footer-start {
+        padding: 32px 16px;
+    }
+
+    /* Footer End */
+}
+
+/******** Mobile End ********/
+/******** Mobile End ********/
+/******** Mobile End ********/
+
+
+
+/******** Mobile 360 Start ********/
+/******** Mobile 360 Start ********/
+/******** Mobile 360 Start ********/
+
+@media screen and (min-width: 350px) and (max-width: 380px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 43%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        height: 34px;
+    }
+
+    .button-search img {
+        width: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 10px;
+    }
+
+    .button-wrapper .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* Hero Start */
+    .hero-section {
+        height: 165px;
+    }
+
+    .hero-img {
+        position: absolute;
+        width: 100%;
+        margin-left: -12px;
+    }
+
+    .hero-produk {
+        font-size: 26px;
+        left: 20px;
+        margin-top: 15px;
+    }
+
+    .hero-text {
+        font-size: 10px;
+        left: 20px;
+        margin-top: -5px;
+    }
+
+    .btn-mj {
+        font-size: 10px;
+        width: 103px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        left: 20px;
+        margin-top: -5px;
+    }
+
+    /* Hero End */
+
+
+    /* Kategori2 Start */
+    .kategori4 {
+        color: #004897;
+        line-height: 120%;
+        font-size: 20px;
+    }
+
+    .kategori2-section {
+        width: 175px;
+        height: 175px;
+    }
+
+    .kategori2-section .kat2-img {
+        height: 175px;
+        padding: 2px;
+    }
+
+    .kategori2-section .kat2-title {
+        margin-top: -48%;
+        margin-left: 8px;
+
+        width: 166px;
+        font-size: 11px;
+    }
+
+    .kategori2-section .kat2-nawar {
+        margin-left: 8px;
+        margin-top: 4px;
+
+        font-size: 10px;
+    }
+
+    .kategori2-section .kat2-beli {
+        margin-left: 8px;
+        margin-top: 6px;
+        padding: 0px;
+        border-radius: 2.02px;
+        border: 0.808px solid var(--Primary-60, #0F62FE);
+        background: var(--Primary-60, #0F62FE);
+    }
+
+    .kat2-beli .btn-beli {
+        font-size: 10px;
+        margin-right: -6px;
+    }
+
+    .kat2-beli img {
+        margin-top: 3px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .carousel .carousel-control-prev {
+        margin-left: -7%;
+    }
+
+    .carousel .carousel-control-prev img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel .carousel-control-next {
+        margin-right: -7%;
+    }
+
+    .carousel .carousel-control-next img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Kategori2 End */
+
+
+    /* Rekomendasi Card Start */
+    .rekomen {
+        color: #004897;
+        line-height: 120%;
+        font-size: 20px;
+    }
+
+    .rekomls-wrapper {
+        color: #004897;
+        font-size: 13px;
+        line-height: 120%;
+    }
+
+    .card-start {
+        position: relative;
+        width: 165px;
+        height: 240px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 2px solid #D9D9D9;
+        background: #FFF;
+    }
+
+    .card-start-hidem {
+        display: none;
+    }
+
+    .card-i {
+        position: relative;
+        width: 142px;
+        top: 10px;
+        left: 10px;
+        object-fit: cover;
+    }
+
+    .card-start .harga {
+        font-size: 14px;
+        margin-left: 13px;
+    }
+
+    .card-icon a img {
+        width: 15px;
+        height: 14px;
+        margin-right: 13px;
+        margin-top: -6px;
+    }
+
+    div .tahun {
+        font-size: 12px;
+        margin-left: 13px;
+        margin-top: 6px;
+    }
+
+    div .judul {
+        font-size: 12px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    div .loc {
+        font-size: 10px;
+        margin-left: -10px;
+        margin-left: 13px;
+    }
+
+    .btn-loadmore {
+        width: 171px;
+        padding: 10px;
+        border-radius: 5px;
+
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .pagination {
+        gap: 8px;
+    }
+
+    .page-item {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-item.active {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-item:hover {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-a {
+        font-size: 14px;
+    }
+
+    .page-a.active {
+        font-size: 14px;
+    }
+
+    .page-a:hover {
+        font-size: 14px;
+    }
+
+    /* Rekomendasi Card End */
+
+
+    /* Footer Start */
+    .footer-start {
+        padding: 32px 16px;
+    }
+
+    /* Footer End */
+}
+
+/******** Mobile 360 End ********/
+/******** Mobile 360 End ********/
+/******** Mobile 360 End ********/
