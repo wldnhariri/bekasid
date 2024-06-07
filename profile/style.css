@@ -565,6 +565,14 @@
     }
 
     /* Profile Seller End */
+
+
+    /* Edit Profil Start */
+    .ep-form .ep-title {
+        width: 17%;
+    }
+
+    /* Edit Profil End */
 }
 
 /******** Tab End ********/
@@ -922,6 +930,35 @@
     }
 
     /* Profile User End */
+
+
+    /* Edit Profil Start */
+    .ep-wrap .p-profile7 {
+        width: 183.02px;
+        height: 183.02px;
+        flex-shrink: 0;
+        border-radius: 50%;
+        margin-left: 48px;
+    }
+
+    .ep-wrap .ep-edit {
+        width: 37.351px;
+        height: 37.351px;
+        flex-shrink: 0;
+        margin-top: 350%;
+        margin-left: -250%;
+    }
+
+    .ep-wrap .ep-name {
+        font-size: 22px;
+    }
+
+    .ep-form .ep-title {
+        width: 26%;
+        font-size: 20px;
+    }
+
+    /* Edit Profil End */
 
 
     /* Footer Start */
@@ -1287,6 +1324,35 @@
     }
 
     /* Profile User End */
+
+
+    /* Edit Profil Start */
+    .ep-wrap .p-profile7 {
+        width: 183.02px;
+        height: 183.02px;
+        flex-shrink: 0;
+        border-radius: 50%;
+        margin-left: 48px;
+    }
+
+    .ep-wrap .ep-edit {
+        width: 37.351px;
+        height: 37.351px;
+        flex-shrink: 0;
+        margin-top: 350%;
+        margin-left: -250%;
+    }
+
+    .ep-wrap .ep-name {
+        font-size: 22px;
+    }
+
+    .ep-form .ep-title {
+        width: 28%;
+        font-size: 20px;
+    }
+
+    /* Edit Profil End */
 
 
     /* Footer Start */
