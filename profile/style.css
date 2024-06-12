@@ -8,6 +8,101 @@
 /******** Web Start ********/
 /******** Web Start ********/
 
+/* Navbar Start */
+.navbar a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.nav-input-hide {
+    display: none;
+}
+
+.nav-input {
+    display: flex;
+}
+
+.input-search {
+    width: 575px;
+    height: 36px;
+    padding: 7px 25px;
+    border-radius: 10px;
+    background: #F1F7FF;
+    color: #747474;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+.button-search {
+    width: 51px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.button-search:hover {
+    background-color: #2196F3;
+}
+
+.button-search img {
+    width: 20px;
+    margin-top: -3px;
+}
+
+.button-wrapper .button-wishlist {
+    border: none;
+    background-color: #F8F9FA;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper .button-wishlist:hover {
+    opacity: 0.8;
+}
+
+.button-wrapper img {
+    width: 38px;
+    height: 38px;
+}
+
+.button-wrapper2 .button-login {
+    width: 78px;
+    height: 38px;
+    border-radius: 10px;
+    background: #DDEBFF;
+    color: #007AFF;
+    border: 2px solid #007AFF;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper2 .button-login:hover {
+    background-color: #F1F7FF;
+}
+
+.button-wrapper2 .button-jual {
+    width: 67px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper2 .button-jual:hover {
+    background-color: #0062CC;
+}
+
+/* Navbar End */
+
 /* Profile Start */
 .p-section {
     border-bottom: 1px solid #747474;
@@ -535,6 +630,64 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 65%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        height: 34px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 10px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
     /* Ubah Alamat Start */
     .ua-wrap {
         gap: 64px;
@@ -586,6 +739,69 @@
 /******** Mobile Start ********/
 
 @media screen and (min-width: 381px) and (max-width: 450px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 45%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        width: 30%;
+        height: 34px;
+    }
+
+    .button-search img {
+        width: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 5px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
 
     /* PROFILE */
 
@@ -980,6 +1196,69 @@
 /******** Mobile 360 Start ********/
 
 @media screen and (min-width: 350px) and (max-width: 380px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 43%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        height: 34px;
+    }
+
+    .button-search img {
+        width: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 10px;
+    }
+
+    .button-wrapper .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
 
     /* PROFILE */
 
