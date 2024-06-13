@@ -516,6 +516,7 @@ div .loc {
     }
 
     .hero-produk {
+        font-size: 48px;
         margin-top: 50px;
         left: 60px;
     }
@@ -718,7 +719,7 @@ div .loc {
     }
 
     .hero-produk {
-        font-size: 26px;
+        font-size: 22px;
         left: 20px;
         margin-top: 15px;
     }
@@ -1017,7 +1018,7 @@ div .loc {
     }
 
     .hero-produk {
-        font-size: 26px;
+        font-size: 22px;
         left: 20px;
         margin-top: 15px;
     }
