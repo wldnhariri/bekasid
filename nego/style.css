@@ -1,0 +1,919 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/******** Web Start ********/
+/******** Web Start ********/
+/******** Web Start ********/
+
+/* Navbar Start */
+.navbar a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.nav-input-hide {
+    display: none;
+}
+
+.nav-input {
+    display: flex;
+}
+
+.input-search {
+    width: 575px;
+    height: 36px;
+    padding: 7px 25px;
+    border-radius: 10px;
+    background: #F1F7FF;
+    color: #747474;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+.button-search {
+    width: 51px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.button-search:hover {
+    background-color: #2196F3;
+}
+
+.button-search img {
+    width: 20px;
+    margin-top: -3px;
+}
+
+.button-wrapper .button-wishlist {
+    border: none;
+    background-color: #F8F9FA;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper .button-wishlist:hover {
+    opacity: 0.8;
+}
+
+.button-wrapper img {
+    width: 38px;
+    height: 38px;
+}
+
+.button-wrapper2 .button-login {
+    width: 78px;
+    height: 38px;
+    border-radius: 10px;
+    background: #DDEBFF;
+    color: #007AFF;
+    border: 2px solid #007AFF;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper2 .button-login:hover {
+    background-color: #F1F7FF;
+}
+
+.button-wrapper2 .button-jual {
+    width: 67px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.button-wrapper2 .button-jual:hover {
+    background-color: #0062CC;
+}
+
+/* Navbar End */
+
+
+/* NEGO */
+
+/* Nego Start */
+.left-wrapper .offcanvas {
+    width: 57%;
+    height: 100%;
+    margin-top: 5%;
+    margin-right: 8%;
+}
+
+.nego-bar {
+    background: #E4E4E7;
+    margin-left: -12px;
+    margin-right: 10px;
+}
+
+.nego-bar div {
+    color: #3F3E3E;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.nego-bar img {
+    width: 26px;
+    height: 26px;
+}
+
+.nego-bar input[type="search"] {
+    width: 170px;
+    height: 26px;
+    font-size: 12px;
+}
+
+.nego-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nego-bar button img {
+    width: 16px;
+    height: 16px;
+}
+
+.left-wrapper .btn-bar {
+    border-radius: 0;
+    margin-left: -12px;
+    margin-right: 10px;
+    background: #DBD8D8;
+}
+
+.nego-pesan .gambar-nego {
+    margin-right: 16px;
+    width: 58px;
+    height: 58px;
+}
+
+.nego-isipesan {
+    margin-right: auto;
+}
+
+.nego-isipesan .name {
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 700;
+    margin-right: 90px;
+}
+
+.nego-isipesan .time {
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nego-isipesan .nama-barang {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nego-isipesan .checkbox {
+    margin-right: 4px;
+    width: 19px;
+    height: 19px;
+}
+
+.nego-isipesan .pesan {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nego-pesan .titik3 {
+    width: 18px;
+    height: 18px;
+}
+
+.btn-bar .btn-titik3 {
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -24px;
+}
+
+.btn-bar .titik3 {
+    width: 18px;
+    height: 18px;
+}
+
+#offcanvasRightLabel {
+    width: 100%;
+}
+
+.nego-kontak {
+    border-bottom: 1px solid #9A9999;
+    margin-left: -8px;
+    margin-right: -12px;
+    padding: 0 10px 10px 10px;
+}
+
+.nego-kontak .gambar-nego {
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+}
+
+.nego-kontak .name {
+    color: #232323;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.nego-kontak .titik3 {
+    width: 18px;
+    height: 18px;
+}
+
+.nego-kontak .close {
+    width: 23px;
+    height: 23px;
+}
+
+.offcanvas-body {
+    margin-top: -30px;
+    margin-bottom: 10%;
+}
+
+.offcanvas-body .date {
+    color: #212020;
+    font-weight: 600;
+}
+
+.offcanvas-body .frame-chat {
+    width: 30%;
+    padding: 12px;
+    border-radius: 12px 12px 12px 0px;
+    border: 1px solid #6098D6;
+    background: #FFF;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.frame-chat .text {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    margin-right: auto;
+}
+
+.frame-chat .time {
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.offcanvas-body .frame-chat2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 12px;
+    border-radius: 12px 12px 0px 12px;
+    border: 1px solid #6098D6;
+    background: #FFF;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 475px;
+}
+
+.frame-chat2 .text {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    margin-right: auto;
+}
+
+.frame-chat2 .time {
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.frame-pertanyaan {
+    border-radius: 20px 20px 0px 0px;
+    border-top: 3px solid #000;
+    margin-top: 27%;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.frame-question {
+    border-bottom: 3px solid #232323;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+.frame-question img {
+    width: 27px;
+    height: 27px;
+    margin-right: 8px;
+}
+
+.frame-question div {
+    color: #232323;
+    font-weight: 600;
+}
+
+.frame-qinstan {
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+
+.frame-qinstan button {
+    padding: 6.767px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #747474;
+    margin-right: 10px;
+
+    color: #747474;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.frame-input {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.frame-input input {
+    padding: 8px;
+    background: #DFDBDB;
+
+    color: #5F5D5D;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.frame-input button {
+    border: none;
+    padding: 8px 16px;
+    background: #007AFF;
+
+    color: #FFF;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.frame-input button:hover {
+    background-color: #2196F3;
+}
+
+.right-wrapper {
+    margin-left: -16px;
+    border-left: 8px solid #FAF4F4;
+}
+
+/* Nego End */
+
+/******** Web End ********/
+/******** Web End ********/
+/******** Web End ********/
+
+
+
+/******** Tab Start ********/
+/******** Tab Start ********/
+/******** Tab Start ********/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 65%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        height: 34px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 10px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* NEGO */
+
+    /* Nego Start */
+    .left-wrapper .offcanvas {
+        width: 49%;
+        margin-top: 8%;
+    }
+
+    .nego-bar {
+        margin-left: -12px;
+        margin-right: -7px;
+    }
+
+    .nego-bar input[type="search"] {
+        width: 110px;
+    }
+
+    .left-wrapper .btn-bar {
+        margin-right: -6px;
+    }
+
+    .nego-pesan .gambar-nego {
+        margin-right: 8px;
+    }
+
+    .nego-isipesan .name {
+        margin-right: 32px;
+    }
+
+    .offcanvas-body {
+        margin-top: -30px;
+    }
+
+    .offcanvas-body .frame-chat {
+        width: 50%;
+    }
+
+    .offcanvas-body .frame-chat2 {
+        margin-left: 175px;
+    }
+
+    .frame-pertanyaan {
+        margin-top: 150%;
+    }
+
+    .right-wrapper {
+        margin-left: 0px;
+        border-left: 4px solid #FAF4F4;
+    }
+
+    /* Nego End */
+}
+
+/******** Tab End ********/
+/******** Tab End ********/
+/******** Tab End ********/
+
+
+
+/******** Mobile Start ********/
+/******** Mobile Start ********/
+/******** Mobile Start ********/
+
+@media screen and (min-width: 381px) and (max-width: 450px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 45%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        width: 30%;
+        height: 34px;
+    }
+
+    .button-search img {
+        width: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 5px;
+    }
+
+    .button-wrapper2 .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper2 .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* NEGO */
+
+    /* Nego Start */
+    .left-wrapper .offcanvas {
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+
+    .right-wrapper {
+        display: none;
+    }
+
+    .nego-bar {
+        margin-right: -12px;
+    }
+
+    .left-wrapper .btn-bar {
+        margin-right: -12px;
+    }
+
+    .btn-bar .btn-titik3 {
+        margin-left: 0px;
+    }
+
+    .nego-kontak {
+        align-items: center;
+        background: #F0F0F0;
+        border-bottom: none;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: 4px 8px 4px 8px;
+    }
+
+    .nego-kontak .gambar-nego {
+        margin-right: 8px;
+        /* margin-left: 12px; */
+        width: 45px;
+        height: 45px;
+    }
+
+    .nego-kontak .name {
+        font-weight: 600;
+    }
+
+    .nego-kontak .titik3 {
+        display: none;
+    }
+
+    .nego-kontak .close {
+        display: none;
+    }
+
+    .offcanvas-body {
+        margin-bottom: 8%;
+    }
+
+    .offcanvas-body .date {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .offcanvas-body .frame-chat {
+        width: 55%;
+        padding: 8px;
+        border-radius: 8px 8px 8px 0px;
+        margin-top: 12px;
+        margin-left: 0px;
+    }
+
+    .offcanvas-body .frame-chat2 {
+        padding: 8px;
+        border-radius: 8px 8px 0px 8px;
+        margin-right: 0px;
+        margin-left: 150px;
+    }
+
+    .frame-pertanyaan {
+        margin-top: 80%;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .frame-question {
+        border-bottom: 3px solid #232323;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 16px;
+    }
+
+    .frame-question img {
+        width: 24px;
+        height: 24px;
+        margin-right: 6px;
+    }
+
+    .frame-question div {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .frame-qinstan {
+        margin-left: 12px;
+        margin-bottom: 16px;
+    }
+
+    .frame-input {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .frame-input input {
+        padding: 6px;
+
+        font-size: 14px;
+        margin-right: 6px;
+    }
+
+    .frame-input button {
+        border: none;
+        padding: 6px 12px;
+        background: #007AFF;
+        font-size: 14px;
+    }
+
+    /* Nego End */
+}
+
+/******** Mobile End ********/
+/******** Mobile End ********/
+/******** Mobile End ********/
+
+
+
+/******** Mobile 360 Start ********/
+/******** Mobile 360 Start ********/
+/******** Mobile 360 Start ********/
+
+@media screen and (min-width: 350px) and (max-width: 380px) {
+
+    /* Navbar Start */
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .nav-input-hide {
+        display: flex;
+        width: 43%;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .input-search {
+        width: 100%;
+        height: 34px;
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    .button-search {
+        height: 34px;
+    }
+
+    .button-search img {
+        width: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 5px;
+    }
+
+    .button-wrapper .button-wishlist {
+        width: 40px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #F1F7FF;
+        border: 1px solid #C1C1C1;
+    }
+
+    .button-wrapper .button-wishlist img {
+        width: 22.17px;
+        height: 20.938px;
+        margin-top: -2px;
+    }
+
+    .button-wrapper2 {
+        margin-top: 10px;
+    }
+
+    .button-wrapper .button-login {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .button-wrapper .button-jual {
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    /* Navbar End */
+
+
+    /* NEGO */
+
+    /* Nego Start */
+    .left-wrapper .offcanvas {
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+
+    .right-wrapper {
+        display: none;
+    }
+
+    .nego-bar {
+        margin-right: -12px;
+    }
+
+    .left-wrapper .btn-bar {
+        margin-right: -12px;
+    }
+
+    .nego-kontak {
+        align-items: center;
+        background: #F0F0F0;
+        border-bottom: none;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: 4px 8px 4px 8px;
+    }
+
+    .nego-kontak .gambar-nego {
+        margin-right: 8px;
+        /* margin-left: 12px; */
+        width: 45px;
+        height: 45px;
+    }
+
+    .nego-kontak .name {
+        font-weight: 600;
+    }
+
+    .nego-kontak .titik3 {
+        display: none;
+    }
+
+    .nego-kontak .close {
+        display: none;
+    }
+
+    .offcanvas-body {
+        margin-bottom: 8%;
+    }
+
+    .offcanvas-body .date {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .offcanvas-body .frame-chat {
+        width: 55%;
+        padding: 8px;
+        border-radius: 8px 8px 8px 0px;
+        margin-top: 12px;
+        margin-left: 0px;
+    }
+
+    .offcanvas-body .frame-chat2 {
+        padding: 8px;
+        border-radius: 8px 8px 0px 8px;
+        margin-right: 0px;
+        margin-left: 140px;
+    }
+
+    .frame-pertanyaan {
+        margin-top: 95%;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .frame-question {
+        border-bottom: 3px solid #232323;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 16px;
+    }
+
+    .frame-question img {
+        width: 24px;
+        height: 24px;
+        margin-right: 6px;
+    }
+
+    .frame-question div {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .frame-qinstan {
+        margin-left: 12px;
+        margin-bottom: 16px;
+    }
+
+    .frame-qinstan button {
+        padding: 3.767px;
+    }
+
+    .frame-input {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .frame-input input {
+        padding: 6px;
+
+        font-size: 14px;
+        margin-right: 6px;
+    }
+
+    .frame-input button {
+        border: none;
+        padding: 6px 12px;
+        background: #007AFF;
+        font-size: 14px;
+    }
+
+    /* Nego End */
+}
+
+/******** Mobile 360 End ********/
+/******** Mobile 360 End ********/
+/******** Mobile 360 End ********/
