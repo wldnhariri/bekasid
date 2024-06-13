@@ -133,7 +133,7 @@
     font-size: 40px;
     font-weight: 600;
     line-height: 120%;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
 }
 
 .p-desc {
@@ -338,6 +338,68 @@
     margin-right: 20px;
 }
 
+.card-start-wishlist {
+    position: relative;
+    width: 264px;
+    height: 360px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+}
+
+.card-is {
+    position: relative;
+    width: 226px;
+    height: 181px;
+    top: 18px;
+    left: 18px;
+    object-fit: cover;
+}
+
+.card-start-wishlist .harga {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+div .tahun {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: 23px;
+    margin-top: 12px;
+}
+
+div .judul {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+div .loc {
+    color: #747474;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+.card-start-wishlist .hapus {
+    margin-top: 14px;
+}
+
+.card-start-wishlist .remove {
+    margin-right: auto;
+    color: #FF5757;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
 /* Profile Tab End */
 
 
@@ -368,6 +430,24 @@
     width: 80%;
     border-radius: 10px;
     border: 2px solid #5E5C5C;
+}
+
+.d-flex .btn-kembali {
+    border: none;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background: rgba(153, 153, 153, 0.85);
+
+    color: #FFF;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-top: 32px;
+    transition: background-color 0.2s ease;
+}
+
+.d-flex .btn-kembali:hover {
+    background: #6A747B;
 }
 
 .d-flex .btn-simpanperubahan {
@@ -688,6 +768,61 @@
 
     /* Navbar End */
 
+    /* Profile Tab Start */
+    .card-start-wishlist {
+        width: 224px;
+        height: 340px;
+    }
+
+    .card-start-hidet {
+        display: none;
+    }
+
+    .card-is {
+        position: relative;
+        width: 201px;
+        top: 10px;
+        left: 10px;
+        object-fit: cover;
+    }
+
+    .card-start-wishlist .harga {
+        font-size: 18px;
+        margin-left: -12px;
+    }
+
+    .card-start-wishlist .card-icon .love {
+        margin-right: -8px;
+        margin-top: -8px;
+        width: 20px;
+        height: 18.33px;
+    }
+
+    div .tahun {
+        margin-left: 12px;
+    }
+
+    div .judul {
+        margin-left: 12px;
+    }
+
+    div .loc {
+        margin-left: 12px;
+    }
+
+    .card-start-wishlist .remove {
+        margin-left: -12px;
+    }
+
+    .card-start-wishlist .icon-remove {
+        margin-right: -8px;
+        margin-top: -6px;
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Profile Tab End */
+
     /* Ubah Alamat Start */
     .ua-wrap {
         gap: 64px;
@@ -726,6 +861,15 @@
     }
 
     /* Edit Profil End */
+
+
+    /* FOOTER */
+    /* Footer Start */
+    .footer-start {
+        padding: 64px 132px 64px 16px;
+    }
+
+    /* Footer End */
 }
 
 /******** Tab End ********/
@@ -849,6 +993,7 @@
     .p-rightmb .p-name {
         font-size: 18px;
         font-weight: 600;
+        margin-bottom: 10px;
     }
 
     .p-rightmb .p-email {
@@ -1034,6 +1179,13 @@
 
     .ua-wrap .form-select {
         width: 100%;
+    }
+
+    .d-flex .btn-kembali {
+        padding: 12px 24px;
+
+        font-size: 14px;
+        margin-top: 24px;
     }
 
     .d-flex .btn-simpanperubahan {
@@ -1306,6 +1458,7 @@
     .p-rightmb .p-name {
         font-size: 16px;
         font-weight: 600;
+        margin-bottom: 10px;
     }
 
     .p-rightmb .p-email {
@@ -1491,6 +1644,13 @@
 
     .ua-wrap .form-select {
         width: 100%;
+    }
+
+    .d-flex .btn-kembali {
+        padding: 12px 24px;
+
+        font-size: 14px;
+        margin-top: 24px;
     }
 
     .d-flex .btn-simpanperubahan {
