@@ -25,20 +25,63 @@
 </head>
 
 <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="nav-hide navbar-brand" href="index.html">
+                <img src="assets/logo.svg" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+                Bekas.id</a>
+            <form class="nav-input-hide mx-auto mt-2 mb-2">
+                <input class="input-search me-2" type="search" placeholder="Temukan" aria-label="Temukan">
+                <button class="button-search" type="submit"><img src="assets/icon-search.svg"
+                        alt="search-icon"></button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="nav-input mx-auto mt-2 mb-2">
+                    <input class="input-search me-2" type="search" placeholder="Temukan" aria-label="Temukan">
+                    <button class="button-search" type="submit"><img src="assets/icon-search.svg"
+                            alt="search-icon"></button>
+                </form>
+
+                <div class="button-wrapper mx-auto">
+                    <a href="wishlist/index.html" class="btn-wish mx-auto">
+                        <button class="button-wishlist me-md-4"><img src="assets/icon-wishlist.svg" alt=""></button>
+                    </a>
+                </div>
+
+                <div class="button-wrapper2 d-flex">
+                    <a href="login/index.html">
+                        <button class="button-login me-md-2 me-2" type="submit">Masuk</button>
+                    </a>
+                    <a href="cara-jual/index.html">
+                        <button class="button-jual" type="submit">Jual</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
     <div class="container">
         <!-- Profile Start -->
         <div class="row py-sm-4 py-3 mt-sm-4 mt-3 p-section">
-            <div class="col-lg-9 col-md-7 align-content-center p-left">
-                <div class="p-name">Savannah Nguyen</div>
-                <button type="submit" class="p-out">Log Out</button>
-            </div>
-
             <div class="col-lg-3 col-md-5 text-center p-right">
                 <img src="assets/profile/profile1.svg" alt="" class="p-profile">
                 <label for="formFile" class="form-label p-event">
                     <img src="assets/profile/icon-edit-fill.svg" alt="" class="p-edit">
                 </label>
                 <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <div class="col-lg-9 col-md-7 align-content-center p-left">
+                <div class="p-name">Savannah Nguyen</div>
+                <button type="submit" class="p-out">Log Out</button>
             </div>
 
             <div class="col-4 p-leftmb">
@@ -60,8 +103,8 @@
     <!-- Profile Tab Start -->
     <div class="container">
         <ul class="tab-nav">
-            <li class="active"><a href="#tab1">Info Pribadi</a></li>
-            <li><a href="#tab2">Alamat</a></li>
+            <li class="active"><a href="#tab1">Info Profile</a></li>
+            <li><a href="#tab2">Iklan Saya</a></li>
         </ul>
 
         <div class="tab-content">
@@ -87,20 +130,63 @@
 
             <div id="tab2" class="tab-pane">
                 <div class="row">
-                    <div class="col-sm-12 pt-tab2 py-4 px-4">
-                        <div class="d-flex align-items-center">
-                            <div class="pt-alamat">2464 Royal Ln. Mesa</div>
-                            <div class="pt-utama">Utama</div>
-                        </div>
-                        <div class="pt-name">Savannah Nguyen</div>
-                        <div class="pt-no">(205) 555-0100</div>
-                        <div class="pt-alamat">2464 Royal Ln. Mesa, New Jersey 45463</div>
-                        <div class="d-flex align-items-center">
-                            <button type="button" class="pt-btn">Share</button>
-                            <span class="pt-span">|</span>
-                            <a href="ubahalamt.html">
-                                <button type="button" class="pt-btn">Ubah Alamat</button>
+                    <div class="col-12 d-flex">
+                        <div class="card-start-wishlist mx-2">
+                            <a href="/detail-product">
+                                <img src="assets/product/p13.png" alt="" class="img-fluid card-is">
                             </a>
+                            <div class="mt-4 d-flex justify-space-between ms-sm-4 me-sm-4">
+                                <div class="harga">Rp. 200.000.000</div>
+                            </div>
+                            <div class="tahun">Bekas</div>
+                            <div class="judul">Volkswagen Beetle</div>
+                            <div class="loc">Surabaya</div>
+                            <div class="hapus d-flex justify-space-between align-items-center ms-sm-4 me-sm-4">
+                                <div class="remove">Hapus Iklan</div>
+                                <div class="card-icon my-auto">
+                                    <a href="#">
+                                        <img src="assets/icon-remove.svg" alt="" class="icon-remove">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-start-wishlist mx-2">
+                            <a href="#">
+                                <img src="assets/product/p13.png" alt="" class="img-fluid card-is">
+                            </a>
+                            <div class="mt-4 d-flex justify-space-between ms-sm-4 me-sm-4">
+                                <div class="harga">Rp. 5.300.000</div>
+                            </div>
+                            <div class="tahun">Bekas</div>
+                            <div class="judul">Kamera Canon</div>
+                            <div class="loc">Jakarta</div>
+                            <div class="hapus d-flex justify-space-between align-items-center ms-sm-4 me-sm-4">
+                                <div class="remove">Hapus Iklan</div>
+                                <div class="card-icon my-auto">
+                                    <a href="#">
+                                        <img src="assets/icon-remove.svg" alt="" class="icon-remove">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-start-wishlist card-start-hidet card-start-hidem mx-2">
+                            <a href="#">
+                                <img src="assets/product/p13.png" alt="" class="img-fluid card-is">
+                            </a>
+                            <div class="mt-4 d-flex justify-space-between ms-sm-4 me-sm-4">
+                                <div class="harga">Rp. 5.300.000</div>
+                            </div>
+                            <div class="tahun">Bekas</div>
+                            <div class="judul">Kamera Canon</div>
+                            <div class="loc">Jakarta</div>
+                            <div class="hapus d-flex justify-space-between align-items-center ms-sm-4 me-sm-4">
+                                <div class="remove">Hapus Iklan</div>
+                                <div class="card-icon my-auto">
+                                    <a href="#">
+                                        <img src="assets/icon-remove.svg" alt="" class="icon-remove">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -112,7 +198,7 @@
                 <div>
                     <a href="infopribadi.html" class="d-flex align-items-center">
                         <img src="assets/profile/icon-filter.svg" alt="" class="pt-imginfo">
-                        <div class="pt-info">Info Pribadi</div>
+                        <div class="pt-info">Info Profile</div>
                     </a>
                 </div>
                 <div>
@@ -140,6 +226,56 @@
         </div>
     </div>
     <!-- Profile Tab End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-xxl mt-sm-5 mt-4">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 border-top footer-start">
+            <div class="col-md-3 mb-3 footcol1">
+                <a href="index.html" class="d-flex align-items-center mb-3 text-decoration-none">
+                    <img src="assets/logo.svg" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top">Bekas.id
+                </a>
+                <div class="text-cpr mt-4">Copyright © 2024 Virtual Intership 4.</div>
+                <div class="text-cpr">All rights reserved</div>
+                <div class="footer-sosmed mt-4">
+                    <a href="#"><img src="assets/icon-ig.svg" alt="" class="icon-sosmed me-2"></a>
+                    <a href="#"><img src="assets/icon-dribble.svg" alt="" class="icon-sosmed me-2"></a>
+                    <a href="#"><img src="assets/icon-twitter.svg" alt="" class="icon-sosmed me-2"></a>
+                    <a href="#"><img src="assets/icon-yt.svg" alt="" class="icon-sosmed"></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <h5 class="footer-title">Kategori</h5>
+                <ul class="nav flex-column mt-3">
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Mobil</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Motor</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Elektronik</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Properti</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <h5 class="footer-title">Populer</h5>
+                <ul class="nav flex-column mt-3">
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Mobil</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Motor</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Elektronik</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="foot-nav p-0 text-decoration-none">Properti</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <h5 class="footer-title">Stay up to date</h5>
+                <form class="footer-input d-flex mt-4">
+                    <input class="input-email" type="email" placeholder="Your email address" aria-label="Email">
+                    <button class="btn-send" type="submit"><img src="assets/icon-send.svg" alt=""></button>
+                </form>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer End -->
 
     <!-- Js Bootstrap 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
