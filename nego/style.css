@@ -380,6 +380,300 @@
 
 /* Nego End */
 
+
+/* Nego2 kiri Start */
+.nego-bar2 {
+    background: #E4E4E7;
+}
+
+.nego-bar2 div {
+    color: #3F3E3E;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.nego-bar2 img {
+    width: 26px;
+    height: 26px;
+}
+
+.nego-bar2 input[type="search"] {
+    width: 210px;
+    height: 26px;
+    border: none;
+    border-radius: 6px;
+    background: #F1F7FF;
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+.nego-bar2 button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nego-bar2 button img {
+    width: 16px;
+    height: 16px;
+}
+
+.left-wrapper2 .btn-bar2 {
+    overflow-y: auto;
+    margin-bottom: 68px;
+    visibility: hidden;
+}
+
+.left-wrapper2 .btn-bar2 .is2,
+.left-wrapper2 .btn-bar2:hover {
+    visibility: visible;
+}
+
+.left-wrapper2 .btn-bar2 .is2 {
+    padding: 6px;
+    background: #DBD8D8;
+    margin-bottom: 8px;
+}
+
+.left-wrapper2 .btn-bar2 .is2:hover {
+    background: #E4E4E7;
+}
+
+.nego-pesan2 .gambar-nego2 {
+    margin-right: 16px;
+    width: 64px;
+    height: 64px;
+}
+
+.nego-isipesan2 {
+    margin-right: auto;
+    width: 100%;
+}
+
+.nego-isipesan2 .dd3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nego-isipesan2 .name2 {
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 700;
+}
+
+.nego-isipesan2 .time2 {
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nego-isipesan2 .nama-barang2 {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nego-isipesan2 .checkbox2 {
+    margin-right: 4px;
+    width: 19px;
+    height: 19px;
+}
+
+.nego-isipesan2 .pesan2 {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nego-pesan2 .titik32 {
+    width: 18px;
+    height: 18px;
+}
+
+.left-wrapper2 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+}
+
+/* Nego2 kiri End */
+
+
+/* Nego2 kanan Start */
+.right-wrapper2 {
+    border-left: 4px solid #FAF4F4;
+    height: 89vh;
+    margin-left: 33.4%;
+}
+
+.right-wrapper2mb {
+    border-left: 4px solid #FAF4F4;
+    height: 89vh;
+    margin-left: 33.4%;
+}
+
+.nego-kontak2 {
+    border-bottom: 1px solid #9A9999;
+    padding: 0 10px 10px 10px;
+    position: fixed;
+    width: 64.8%;
+    background: #fff;
+    z-index: 10;
+}
+
+.nego-kontak2 .gambar-nego2 {
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+}
+
+.nego-kontak2 .name2 {
+    color: #232323;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.nego-kontak2 .titik32 {
+    width: 18px;
+    height: 18px;
+}
+
+.offcanvas-body2 {
+    margin-top: calc(7%);
+    overflow: hidden;
+    height: calc(89vh - 48px - 34%);
+    margin-bottom: 16px;
+}
+
+.offcanvas-body2:hover {
+    overflow: auto;
+}
+
+.offcanvas-body2 .date2 {
+    color: #212020;
+    font-weight: 600;
+}
+
+.offcanvas-body2 .frame-chat2 {
+    width: 40%;
+    padding: 12px;
+    border-radius: 12px 12px 12px 0px;
+    border: 1px solid #6098D6;
+    background: #FFF;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.frame-chat2 .text2 {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    margin-right: auto;
+}
+
+.frame-chat2 .time2 {
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.offcanvas-body2 .frame-chat22 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 12px;
+    border-radius: 12px 12px 0px 12px;
+    border: 1px solid #6098D6;
+    background: #FFF;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 475px;
+}
+
+.frame-chat22 .text2 {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    margin-right: auto;
+}
+
+.frame-chat22 .time2 {
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.frame-pertanyaan2 {
+    border-radius: 20px 20px 0px 0px;
+    border-top: 3px solid #000;
+    bottom: 8px;
+    background: #fff;
+}
+
+.frame-question2 {
+    border-bottom: 3px solid #232323;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+.frame-question2 img {
+    width: 27px;
+    height: 27px;
+    margin-right: 8px;
+}
+
+.frame-question2 div {
+    color: #232323;
+    font-weight: 600;
+}
+
+.frame-qinstan2 {
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+
+.frame-qinstan2 button {
+    padding: 6.767px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #747474;
+    margin-right: 10px;
+
+    color: #747474;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.frame-input2 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.frame-input2 input {
+    padding: 8px;
+    background: #DFDBDB;
+
+    color: #5F5D5D;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.frame-input2 button {
+    border: none;
+    padding: 8px 16px;
+    background: #007AFF;
+
+    color: #FFF;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.frame-input2 button:hover {
+    background-color: #2196F3;
+}
+
+/* Nego2 kanan End */
+
 /******** Web End ********/
 /******** Web End ********/
 /******** Web End ********/
@@ -502,6 +796,45 @@
     }
 
     /* Nego End */
+
+
+    /* Nego2 kiri Start */
+    .nego-bar2 input[type="search"] {
+        width: 135px;
+    }
+
+    /* Nego2 kiri End */
+
+
+    /* Nego2 Kanan Start */
+    .right-wrapper2 {
+        height: 89vh;
+        margin-left: 40.8%;
+    }
+
+    .right-wrapper2mb {
+        height: 89vh;
+        margin-left: 40.8%;
+    }
+
+    .nego-kontak2 {
+        width: 55.8%;
+    }
+
+    .offcanvas-body2 {
+        margin-top: calc(14%);
+        height: calc(89vh - 48px - 24%);
+    }
+
+    .offcanvas-body2 .frame-chat2 {
+        width: 50%;
+    }
+
+    .offcanvas-body2 .frame-chat22 {
+        margin-left: 200px;
+    }
+
+    /* Nego2 Kanan End */
 }
 
 /******** Tab End ********/
@@ -707,6 +1040,49 @@
     }
 
     /* Nego End */
+
+
+    /* Nego2 kiri Start */
+    .nego-bar2 input[type="search"] {
+        width: 175px;
+    }
+
+    /* Nego2 kiri End */
+
+
+    /* Nego2 kanan Start */
+    .right-wrapper2 {
+        border-left: 0px solid #FAF4F4;
+        height: 90vh;
+        margin-left: 0%;
+        z-index: 20;
+        background: #fff;
+    }
+
+    .right-wrapper2mb {
+        display: none;
+        color: #fff;
+    }
+
+    .nego-kontak2 {
+        width: 94%;
+    }
+
+    .offcanvas-body2 {
+        margin-top: calc(16%);
+        height: calc(89vh - 48px - 34%);
+        margin-bottom: 16px;
+    }
+
+    .offcanvas-body2 .frame-chat2 {
+        width: 64%;
+    }
+
+    .offcanvas-body2 .frame-chat22 {
+        margin-left: 116px;
+    }
+
+    /* Nego2 kanan End */
 }
 
 /******** Mobile End ********/
@@ -912,6 +1288,48 @@
     }
 
     /* Nego End */
+
+    /* Nego2 kiri Start */
+    .nego-bar2 input[type="search"] {
+        width: 145px;
+    }
+
+    /* Nego2 kiri End */
+
+
+    /* Nego2 kanan Start */
+    .right-wrapper2 {
+        border-left: 0px solid #FAF4F4;
+        height: 100vh;
+        margin-left: 0%;
+        z-index: 20;
+        background: #fff;
+    }
+
+    .right-wrapper2mb {
+        display: none;
+        color: #fff;
+    }
+
+    .nego-kontak2 {
+        width: 94%;
+    }
+
+    .offcanvas-body2 {
+        margin-top: calc(16%);
+        height: calc(89vh - 48px - 30%);
+        margin-bottom: 16px;
+    }
+
+    .offcanvas-body2 .frame-chat2 {
+        width: 64%;
+    }
+
+    .offcanvas-body2 .frame-chat22 {
+        margin-left: 116px;
+    }
+
+    /* Nego2 kanan End */
 }
 
 /******** Mobile 360 End ********/

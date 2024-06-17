@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index2</title>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Logo Title Bar -->
+    <link rel="icon" href="assets/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="nav-hide navbar-brand" href="index.html">
+                <img src="assets/logo.svg" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+                Bekas.id</a>
+            <form class="nav-input-hide mx-auto mt-2 mb-2">
+                <input class="input-search me-2" type="search" placeholder="Temukan" aria-label="Temukan">
+                <button class="button-search" type="submit"><img src="assets/icon-search.svg"
+                        alt="search-icon"></button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="nav-input mx-auto mt-2 mb-2">
+                    <input class="input-search me-2" type="search" placeholder="Temukan" aria-label="Temukan">
+                    <button class="button-search" type="submit"><img src="assets/icon-search.svg"
+                            alt="search-icon"></button>
+                </form>
+
+                <div class="button-wrapper mx-auto">
+                    <a href="wishlist/index.html" class="btn-wish mx-auto">
+                        <button class="button-wishlist me-md-4"><img src="assets/icon-wishlist.svg" alt=""></button>
+                    </a>
+                </div>
+
+                <div class="button-wrapper2 d-flex">
+                    <a href="login/index.html">
+                        <button class="button-login me-md-2 me-2" type="submit">Masuk</button>
+                    </a>
+                    <a href="cara-jual/index.html">
+                        <button class="button-jual" type="submit">Jual</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Start -->
+    <div class="container-fluid overflow-hidden">
+        <div class="row">
+            <!-- Nego2 Kiri Start -->
+            <div class="col-lg-4 col-md-5 col-12 left-wrapper2">
+                <div class="nego-bar2 d-flex align-items-center px-3 py-3">
+                    <div>Kotak Masuk</div>
+                    <img id="search-icon" src="assets/nego/icon-search.svg" alt="">
+                    <input id="search-input" placeholder="Cari" type="search" style="display: none;">
+                    <button id="close-button" style="display: none;"><img src="assets/nego/icon-close.svg"
+                            alt=""></button>
+                </div>
+                <div class="btn-bar2">
+                    <div class="is2" data-name="Nama penjual 1" data-image="assets/nego/gambar-nego.svg"
+                        data-chat-penjual="isi chat penjual 1" data-chat-pembeli="isi chat pembeli 1">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual 1</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang 1</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan 1</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="is2" data-name="Nama penjual 2" data-image="assets/nego/gambar-nego2.svg"
+                        data-chat-penjual="isi chat penjual 2" data-chat-pembeli="isi chat pembeli 2">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual 2</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang 2</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan 2</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="is2">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="is2">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="is2">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="is2">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="is2">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="is2">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="is2">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="is2">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="is2">
+                        <div class="nego-pesan2 d-flex align-items-center">
+                            <img src="assets/nego/gambar-nego.svg" alt="" class="gambar-nego2">
+                            <div class="nego-isipesan2">
+                                <div class="dd3 align-items-center">
+                                    <div class="name2">Nama penjual</div>
+                                    <div class="time2">00:00</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="nama-barang2">Nama barang</div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/nego/bx_check-double.svg" alt="" class="checkbox2">
+                                    <div class="pesan2">Isi pesan</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-titik32" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Hapus pesan</a></li>
+                                <li><a class="dropdown-item" href="#">Tandai sebagai penting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Nego2 Kiri End -->
+
+
+            <!-- Nego2 Kanan Start -->
+            <div class="col-lg-8 col-md-7 col-12 right-wrapper2mb text-center align-content-center" id="default-view">
+                <p>Pilih chat untuk melihat percakapan</p>
+            </div>
+
+            <div class="col-lg-8 col-md-7 col-12 right-wrapper2" id="chat-view" style="display: none;">
+                <div class="nego-kontak2 d-flex align-items-center">
+                    <img id="chat-image" src="" alt="" class="gambar-nego2">
+                    <div class="name2" id="chat-name">Nama penjual</div>
+                    <button class="btn btn-titik32" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="assets/nego/titik-3.svg" alt="" class="titik32">
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Hapus chat</a></li>
+                        <li><a class="dropdown-item" href="#">Blokir pengguna</a></li>
+                    </ul>
+                    <button type="button" class="btn-close text-reset" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body2">
+                    <div class="date2 text-center mt-2">Kamis, 16 Mei</div>
+                    <div class="frame-chat2 d-flex align-items-center">
+                        <div class="text2" id="chat-penjual">isi chat penjual</div>
+                        <div class="time2">00:00</div>
+                    </div>
+                    <div class="frame-chat22">
+                        <div class="text2" id="chat-pembeli">isi chat pembeli</div>
+                        <div class="time2">00:00</div>
+                    </div>
+                </div>
+
+                <div class="frame-pertanyaan2">
+                    <div class="frame-question2 py-2 d-flex justify-content-center align-items-center">
+                        <img src="assets/nego/icon-question.svg" alt="">
+                        <div>Pertanyaan</div>
+                    </div>
+                    <div class="frame-qinstan2 d-flex align-items-center">
+                        <button type="submit" class="btn">Mari bertemu</button>
+                        <button type="submit" class="btn">Unit masih ada?</button>
+                        <button type="submit" class="btn">Lokasi dimana?</button>
+                    </div>
+                    <div class="frame-input2 d-flex align-items-center">
+                        <input type="text" class="form-control" placeholder="Tuliskan pesan anda" aria-label="Message"
+                            aria-describedby="basic-addon1">
+                        <button type="submit">Kirim</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Nego2 Kanan End -->
+        </div>
+    </div>
+    <!-- End -->
+
+
+    <!-- Js Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.getElementById('search-icon').addEventListener('click', function () {
+            this.style.display = 'none';
+            document.getElementById('search-input').style.display = 'block';
+            document.getElementById('close-button').style.display = 'block';
+        });
+
+        document.getElementById('close-button').addEventListener('click', function () {
+            this.style.display = 'none';
+            document.getElementById('search-input').style.display = 'none';
+            document.getElementById('search-icon').style.display = 'block';
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const chatItems = document.querySelectorAll('.is2');
+            const defaultView = document.getElementById('default-view');
+            const chatView = document.getElementById('chat-view');
+            const chatImage = document.getElementById('chat-image');
+            const chatName = document.getElementById('chat-name');
+            const chatPenjual = document.getElementById('chat-penjual');
+            const chatPembeli = document.getElementById('chat-pembeli');
+            const closeButton = chatView.querySelector('.btn-close');
+
+            chatItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    const name = item.getAttribute('data-name');
+                    const image = item.getAttribute('data-image');
+                    const chatPenjualContent = item.getAttribute('data-chat-penjual');
+                    const chatPembeliContent = item.getAttribute('data-chat-pembeli');
+
+                    chatName.textContent = name;
+                    chatImage.src = image;
+                    chatPenjual.textContent = chatPenjualContent;
+                    chatPembeli.textContent = chatPembeliContent;
+
+                    defaultView.style.display = 'none';
+                    chatView.style.display = 'block';
+                });
+            });
+
+            closeButton.addEventListener('click', () => {
+                defaultView.style.display = 'block';
+                chatView.style.display = 'none';
+            });
+        });
+
+    </script>
+</body>
+
+</html>
